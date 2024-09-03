@@ -1,0 +1,126 @@
+{
+    "sourceFile": "components/logo.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1725371534319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725371540382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-impor\n\\ No newline at end of file\n+import Image\n+\n+from \"next/image\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371548961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,2 @@\n-import Image\n+import Image from \"next/image\";\n \n\\ No newline at end of file\n-from \"next/image\";\n"
+                },
+                {
+                    "date": 1725371554807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n import Image from \"next/image\";\n+\n+export const logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371560646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import Image from \"next/image\";\n \n-export const logo\n\\ No newline at end of file\n+export const logo = () =\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371567588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n import Image from \"next/image\";\n \n-export const logo = () =\n\\ No newline at end of file\n+export const logo = () => {\n+    ret\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371592681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n import Image from \"next/image\";\n \n export const logo = () => {\n-    ret\n+    return(\n+        <Image\n+    )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371597745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import Image from \"next/image\";\n \n export const logo = () => {\n     return(\n-        <Image\n+        <Image \n+        />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371603111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n \n export const logo = () => {\n     return(\n         <Image \n+        src\n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371608966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \n export const logo = () => {\n     return(\n         <Image \n-        src\n+        src={\"\"}\n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371614688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \n export const logo = () => {\n     return(\n         <Image \n-        src={\"\"}\n+        src={\"/public/\"}\n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371619828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n \n export const logo = () => {\n     return(\n         <Image \n-        src={\"/public/\"}\n+        src={\"/public/logo.png\"}\n+        \n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371630714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n         \n+\n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371638349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n export const logo = () => {\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n-        \n \n+        alt=\"Me\"\n+\n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371728204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import Image from \"next/image\";\n \n-export const logo = () => {\n+export const Logo = () => {\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n \n-        alt=\"Me\"\n+        alt=\"Mediacy\"\n \n         />\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371733228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import Image from \"next/image\";\n \n-export const Logo = () => {\n+export const ogo = () => {\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n         />\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371738461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import Image from \"next/image\";\n \n-export const ogo = () => {\n+export const logo = () => {\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n         />\n     )\n\\ No newline at end of file\n-}\n+}\n+ex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371745880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,5 @@\n \n         />\n     )\n }\n-ex\n\\ No newline at end of file\n+export default logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371759376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,10 @@\n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n+        \n+\n         />\n     )\n }\n export default logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371775603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n-        \n+<\n \n         />\n     )\n }\n"
+                },
+                {
+                    "date": 1725371783281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n-<\n+width={36}\n \n         />\n     )\n }\n"
+                },
+                {
+                    "date": 1725371790582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n \n         alt=\"Mediacy\"\n \n width={36}\n+he={36}\n \n+\n         />\n     )\n }\n export default logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725371795776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n         src={\"/public/logo.png\"}\n \n         alt=\"Mediacy\"\n \n-width={36}\n-he={36}\n+        width={36}\n+        height={36}\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725371802731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,12 @@\n export const logo = () => {\n     return(\n         <Image \n         src={\"/public/logo.png\"}\n-\n         alt=\"Mediacy\"\n-\n         width={36}\n         height={36}\n+        \n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725371813395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n         src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n-        \n+        pr\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725371819272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n         src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n-        pr\n+        priority\n+        className=\"\"\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725371830790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"\"\n+        className=\"cur\"\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725371845215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"cur\"\n+        className=\"cursor-pointer\"\n \n \n         />\n     )\n"
+                }
+            ],
+            "date": 1725371534319,
+            "name": "Commit-0",
+            "content": "impor"
+        }
+    ]
+}

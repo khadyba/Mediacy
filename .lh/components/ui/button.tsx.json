@@ -1,0 +1,162 @@
+{
+    "sourceFile": "components/ui/button.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 36,
+            "patches": [
+                {
+                    "date": 1725367767162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725367775456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        \n+        pri\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367794624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        pri\n+        primary: \n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367800921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \n+        primary: \"bg-t\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367807822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-t\"\n+        primary: \"bg-transparant \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367823409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant \"\n+        primary: \"bg-transparant hover\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367828470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover\"\n+        primary: \"bg-transparant hover:bg\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367837634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg\"\n+        primary: \"bg-transparant hover:bg-\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367845081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-\"\n+        primary: \"bg-transparant hover:bg-[#]\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367864877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#]\"\n+        primary: \"bg-transparant hover:bg-[#684]\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367870486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#684]\"\n+        primary: \"bg-transparant hover:bg-[#6841DA]\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367883472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA]\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367899653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text \"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA]\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367905524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA]\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367916734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367923363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367934396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367943985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white\n+         border\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367954299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white\n-         border\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \n+        border\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367965871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \n-        border\"\n+                  border\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367972169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \n-                  border\"\n+                  border-\"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367981250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white \n-                  border-\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border\n+        \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725367990323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border\"\n         \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n"
+                },
+                {
+                    "date": 1725367997037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-\"\n         \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n"
+                },
+                {
+                    "date": 1725368004323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px]\"\n         \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n"
+                },
+                {
+                    "date": 1725368011832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px]\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border\"\n         \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n"
+                },
+                {
+                    "date": 1725368024862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border\"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \"\n         \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n"
+                },
+                {
+                    "date": 1725368037368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n   {\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n-        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \"\n-        \"\n+        primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n+        \n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368050835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        \n+        sec\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368060518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        sec\n+        secondary: \n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368071974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        secondary: \n+        secondary: \"bg-[#6841DA] \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368085709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        secondary: \"bg-[#6841DA] \"\n+        secondary: \"bg-[#6841DA] text-white border- \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368096221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        secondary: \"bg-[#6841DA] text-white border- \"\n+        secondary: \"bg-[#6841DA] text-white border-[] \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368118907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     variants: {\n       variant: {\n         default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n         primary: \"bg-transparant hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA] \",\n-        secondary: \"bg-[#6841DA] text-white border-[] \"\n+        secondary: \"bg-[#6841DA] text-white border-[3px] border-[#6841DA] \"\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n"
+                },
+                {
+                    "date": 1725368139364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n-        lg: \"h-11 rounded-md px-8\",\n+        lg: \"h- rounded-md px-8\",\n         icon: \"h-10 w-10\",\n       },\n     },\n     defaultVariants: {\n"
+                },
+                {
+                    "date": 1725368157336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n-        lg: \"h- rounded-md px-8\",\n+        lg: \"h-[50px] rounded-lg px-8\",\n         icon: \"h-10 w-10\",\n       },\n     },\n     defaultVariants: {\n"
+                },
+                {
+                    "date": 1725368171288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       },\n       size: {\n         default: \"h-10 px-4 py-2\",\n         sm: \"h-9 rounded-md px-3\",\n-        lg: \"h-[50px] rounded-lg px-8\",\n+        lg: \"h-[50px] rounded-lg px-\",\n         icon: \"h-10 w-10\",\n       },\n     },\n     defaultVariants: {\n"
+                }
+            ],
+            "date": 1725367767162,
+            "name": "Commit-0",
+            "content": "import * as React from \"react\"\nimport { Slot } from \"@radix-ui/react-slot\"\nimport { cva, type VariantProps } from \"class-variance-authority\"\n\nimport { cn } from \"@/lib/utils\"\n\nconst buttonVariants = cva(\n  \"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-primary text-primary-foreground hover:bg-primary/90\",\n        \n      },\n      size: {\n        default: \"h-10 px-4 py-2\",\n        sm: \"h-9 rounded-md px-3\",\n        lg: \"h-11 rounded-md px-8\",\n        icon: \"h-10 w-10\",\n      },\n    },\n    defaultVariants: {\n      variant: \"default\",\n      size: \"default\",\n    },\n  }\n)\n\nexport interface ButtonProps\n  extends React.ButtonHTMLAttributes<HTMLButtonElement>,\n    VariantProps<typeof buttonVariants> {\n  asChild?: boolean\n}\n\nconst Button = React.forwardRef<HTMLButtonElement, ButtonProps>(\n  ({ className, variant, size, asChild = false, ...props }, ref) => {\n    const Comp = asChild ? Slot : \"button\"\n    return (\n      <Comp\n        className={cn(buttonVariants({ variant, size, className }))}\n        ref={ref}\n        {...props}\n      />\n    )\n  }\n)\nButton.displayName = \"Button\"\n\nexport { Button, buttonVariants }\n"
+        }
+    ]
+}

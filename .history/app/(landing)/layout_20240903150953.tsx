@@ -1,0 +1,5 @@
+const landingLayout = () => {
+    return (
+        <div
+    )
+}

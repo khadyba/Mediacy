@@ -1,0 +1,2 @@
+// composant cot
+"use client "

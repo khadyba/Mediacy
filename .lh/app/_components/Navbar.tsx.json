@@ -1,0 +1,510 @@
+{
+    "sourceFile": "app/_components/Navbar.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 123,
+            "patches": [
+                {
+                    "date": 1725370286788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725370295175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-\"use\"\n\\ No newline at end of file\n+\n+\"use client \"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370306677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-\n+// composant cot\n \"use client \"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370313378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-// composant cot\n+// composant coté client\n \"use client \"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370354907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n // composant coté client\n-\"use client \"\n\\ No newline at end of file\n+\"use client \"\n"
+                },
+                {
+                    "date": 1725370361878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n // composant coté client\n \"use client \"\n+import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370375599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n // composant coté client\n \"use client \"\n+// importation de lik\n import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370380813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // composant coté client\n \"use client \"\n-// importation de lik\n+// importation de link un \n import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370386203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // composant coté client\n \"use client \"\n-// importation de link un \n+// importation de link un c\n import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370391409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // composant coté client\n \"use client \"\n-// importation de link un c\n+// importation de link pour l\n import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370403433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // composant coté client\n \"use client \"\n-// importation de link pour l\n+// importation de link pour les lient fournis par next\n import Link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370415992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n // composant coté client\n \"use client \"\n // importation de link pour les lient fournis par next\n-import Link from \"next/link\"\n\\ No newline at end of file\n+import Link from \"next/link\"\n+\n"
+                },
+                {
+                    "date": 1725370424083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,5 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n+// importation de \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370438134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,7 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-// importation de \n\\ No newline at end of file\n+// importation du menu de navigation \n+\n+imp\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370443744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n import Link from \"next/link\"\n \n // importation du menu de navigation \n \n-imp\n\\ No newline at end of file\n+import {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370451618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \n // importation du menu de navigation \n \n import {\n-    \n+    Navigation\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370468463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \n // importation du menu de navigation \n \n import {\n-    Navigation\n+    NavigationM\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370478803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \n // importation du menu de navigation \n \n import {\n-    NavigationM\n-}\n\\ No newline at end of file\n+    NavigationMenu\n+}from\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370485237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n // importation du menu de navigation \n \n import {\n     NavigationMenu\n-}from\n\\ No newline at end of file\n+}from \"@/\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370491653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n // importation du menu de navigation \n \n import {\n     NavigationMenu\n-}from \"@/\"\n\\ No newline at end of file\n+}from \"@/components/\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370497835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n // importation du menu de navigation \n \n import {\n     NavigationMenu\n-}from \"@/components/\"\n\\ No newline at end of file\n+}from \"@/components/ui\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370521612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n \n // importation du menu de navigation \n \n import {\n-    NavigationMenu\n-}from \"@/components/ui\"\n\\ No newline at end of file\n+    NavigationMenu,\n+    \n+}from \"@/components/ui/navigation-menu\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370531569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n-    \n+    NavigationMenuItem,\n+    N\n }from \"@/components/ui/navigation-menu\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370541261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n \n import {\n     NavigationMenu,\n     NavigationMenuItem,\n-    N\n+    NavigationMenuLink,\n }from \"@/components/ui/navigation-menu\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370562109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,8 @@\n import {\n     NavigationMenu,\n     NavigationMenuItem,\n     NavigationMenuLink,\n-}from \"@/components/ui/navigation-menu\"\n\\ No newline at end of file\n+    NavigationMenuList\n+}from \"@/components/ui/navigation-menu\"\n+\n+const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370569073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n     NavigationMenuLink,\n     NavigationMenuList\n }from \"@/components/ui/navigation-menu\"\n \n-const \n\\ No newline at end of file\n+const navigation = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370585560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,9 @@\n     NavigationMenuLink,\n     NavigationMenuList\n }from \"@/components/ui/navigation-menu\"\n \n-const navigation = \n\\ No newline at end of file\n+const navigation = [\n+    {\n+        \n+    }\n+]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370591584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n }from \"@/components/ui/navigation-menu\"\n \n const navigation = [\n     {\n-        \n+        \"home\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370598850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n }from \"@/components/ui/navigation-menu\"\n \n const navigation = [\n     {\n-        \"home\"\n+        item\"home\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370645536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n }from \"@/components/ui/navigation-menu\"\n \n const navigation = [\n     {\n-        item\"home\"\n+        item: \"home\",\n+        \n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370651337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n \n const navigation = [\n     {\n         item: \"home\",\n-        \n+        hr\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370657835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n \n const navigation = [\n     {\n         item: \"home\",\n-        hr\n+        href: \"\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370679578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,6 @@\n \n const navigation = [\n     {\n         item: \"home\",\n-        href: \"\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370686074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,9 @@\n \n const navigation = [\n     {\n         item: \"home\",\n+    },\n+    {\n+        it\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370694559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,7 @@\n     {\n         item: \"home\",\n     },\n     {\n-        it\n+        item: \"about\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370700744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,7 @@\n     {\n         item: \"home\",\n     },\n     {\n-        item: \"about\"\n+        item: \"bout\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370706099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n }from \"@/components/ui/navigation-menu\"\n \n const navigation = [\n     {\n-        item: \"home\",\n+        item: \"Home\",\n     },\n     {\n-        item: \"bout\"\n+        item: \"About\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370725449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,9 @@\n         item: \"Home\",\n     },\n     {\n         item: \"About\"\n+    },\n+    {\n+        item: \"About\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370748227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,7 +19,13 @@\n     {\n         item: \"About\"\n     },\n     {\n+        item: \"Costomers\"\n+    },\n+    {\n         item: \"About\"\n+    },\n+    {\n+        item: \"About\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370755934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     {\n         item: \"About\"\n     },\n     {\n-        item: \"Costomers\"\n+        item: \"Customers\"\n     },\n     {\n         item: \"About\"\n     },\n"
+                },
+                {
+                    "date": 1725370765933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     {\n         item: \"Customers\"\n     },\n     {\n-        item: \"About\"\n+        item: \"Con\"\n     },\n     {\n         item: \"About\"\n     }\n"
+                },
+                {
+                    "date": 1725370790325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n     {\n         item: \"Customers\"\n     },\n     {\n-        item: \"Con\"\n+        item: \"Contact\"\n     },\n     {\n-        item: \"About\"\n+        item: \"Pri\"\n     }\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370806678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,8 @@\n     {\n         item: \"Contact\"\n     },\n     {\n-        item: \"Pri\"\n+        item: \"Pricing\"\n     }\n\\ No newline at end of file\n-]\n+]\n+export \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370821090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n     {\n         item: \"Pricing\"\n     }\n ]\n-export \n\\ No newline at end of file\n+export const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370826618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n     {\n         item: \"Pricing\"\n     }\n ]\n-export const \n\\ No newline at end of file\n+export const Navbar = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370832366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n     {\n         item: \"Pricing\"\n     }\n ]\n-export const Navbar = \n\\ No newline at end of file\n+export const Navbar = () => \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370847914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,7 @@\n     {\n         item: \"Pricing\"\n     }\n ]\n-export const Navbar = () => \n\\ No newline at end of file\n+export const Navbar = () =>  [\n+    \n+]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370855194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,6 +29,8 @@\n         item: \"Pricing\"\n     }\n ]\n export const Navbar = () =>  [\n-    \n+    return(\n+        \n+    )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370864483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,7 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        \n+        <div cla>\n+\n+        </div>\n     )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370873403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        <div cla>\n+        <div className=\"flex \">\n \n         </div>\n     )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370882902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        <div className=\"flex \">\n+        <div className=\"flex items-center\">\n \n         </div>\n     )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370892153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        <div className=\"flex items-center\">\n+        <div className=\"flex items-center j\">\n \n         </div>\n     )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370904239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        <div className=\"flex items-center j\">\n+        <div className=\"flex items-center justify-center \">\n \n         </div>\n     )\n ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370918153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  [\n     return(\n-        <div className=\"flex items-center justify-center \">\n+        <div className=\"flex items-center justify-center w-full\">\n \n         </div>\n     )\n\\ No newline at end of file\n-]\n+]}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370926748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,11 @@\n     {\n         item: \"Pricing\"\n     }\n ]\n-export const Navbar = () =>  [\n+export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full\">\n \n         </div>\n     )\n\\ No newline at end of file\n-]}\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370934349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  {\n     return(\n-        <div className=\"flex items-center justify-center w-full\">\n+        <div className=\"flex items-center justify-center w-full \">\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370945131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  {\n     return(\n-        <div className=\"flex items-center justify-center w-full \">\n+        <div className=\"flex items-center justify-center w-full pt- \">\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370950861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     }\n ]\n export const Navbar = () =>  {\n     return(\n-        <div className=\"flex items-center justify-center w-full pt- \">\n+        <div className=\"flex items-center justify-center w-full pt-8 selct \">\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370968924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,10 @@\n     }\n ]\n export const Navbar = () =>  {\n     return(\n-        <div className=\"flex items-center justify-center w-full pt-8 selct \">\n+        <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n+            \n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370974405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            \n+            <\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370979669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <\n+            <NavigationMenu\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725370985133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu\n+            <NavigationMenu ></NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371004302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu ></NavigationMenu>\n+            <NavigationMenu  className=\"\">\n \n+            </NavigationMenu>\n+\n\\ No newline at end of file\n         </div>\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371017334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"\">\n+            <NavigationMenu  className=\"w-full max\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371023795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max\">\n+            <NavigationMenu  className=\"w-full max-\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371029510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-\">\n+            <NavigationMenu  className=\"w-full max-w[]\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371038993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w[]\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px]\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371056790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px]\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] jus\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371061915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] jus\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371067866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371077365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 \">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371083857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 \">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371090726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[\">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371103477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,12 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[\n+            ]\">\n \n             </NavigationMenu>\n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371110059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,12 +31,12 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[\n-            ]\">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[]\n+            \">\n \n             </NavigationMenu>\n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371120772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,12 +31,12 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[]\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[0px]\n             \">\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371136006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,12 +31,13 @@\n ]\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n-            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 h-[0px]\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n+            h-[60px]\n             \">\n \n             </NavigationMenu>\n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371142524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,11 @@\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n-            h-[60px]\n-            \">\n+            h-[60px]\" >\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371151877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n-            h-[60px]\" >\n+            h-[60px] \" >\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371158332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n export const Navbar = () =>  {\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n-            h-[60px] \" >\n+            h-[60px] items-center\" >\n \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371172844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,10 @@\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n-\n+             \n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371179908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,10 @@\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n-             \n+             <NavigationMenuList\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371212845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,12 @@\n     return(\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n-             <NavigationMenuList\n+             <NavigationMenuList>\n+                <N\n+             </NavigationMenuList>\n             </NavigationMenu>\n \n\\ No newline at end of file\n         </div>\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371234943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,13 @@\n         <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n-                <N\n+                <NavigationMenuItem>\n+                    <L\n+                </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n\\ No newline at end of file\n         </div>\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371240264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,12 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <L\n+                    <Link >\n+                    </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371248098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link >\n+                    <Link href=>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371253251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=>\n+                    <Link href=\"/\">\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371271190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=\"/\">\n+                    <Link href=\"/\" className=\"\">\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371277890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=\"/\" className=\"\">\n+                    <Link href=\"/\" className=\"flex item\">\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371283068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=\"/\" className=\"flex item\">\n+                    <Link href=\"/\" className=\"flex items-center justify-center\">\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371299672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,13 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=\"/\" className=\"flex items-center justify-center\">\n+                    <Link href=\"/\" className=\"flex items-center space\">\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371326357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,13 +35,14 @@\n             <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n-                    <Link href=\"/\" className=\"flex items-center space\">\n+                    <Link href=\"/\" className=\"flex items-center space-x-2\">\n+                    \n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n\\ No newline at end of file\n     )\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371332916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n-                    \n+                    <Logo></Logo>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371338467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n-                    <Logo></Logo>\n+                    <LogoLogo>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371344184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n-                    <LogoLogo>\n+                    <Logo />\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371362395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,12 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n+                    <h\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371367810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h\n+                    <h2></h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371376750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2></h2>\n+                    <h2>Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371392466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2>Medicy</h2>\n+                    <h2 className=\"\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371401714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2 className=\"\">Medicy</h2>\n+                    <h2 className=\"text-2xl\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371406953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2 className=\"text-2xl\">Medicy</h2>\n+                    <h2 className=\"text-2xl fon\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371412181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,13 +37,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2 className=\"text-2xl fon\">Medicy</h2>\n+                    <h2 className=\"text-2xl font\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371667681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n+imp\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n@@ -37,13 +38,13 @@\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n                     <Logo />\n-                    <h2 className=\"text-2xl font\">Medicy</h2>\n+                    <h2 className=\"text-2xl font-bold\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1725371673285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-imp\n+import logo\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n@@ -46,5 +46,5 @@\n             </NavigationMenu>\n \n         </div>\n     )\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1725371681331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import logo\n+import logo from \"\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725371692056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import logo from \"\"\n+import logo from \"@\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725371697579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import logo from \"@\"\n+import logo from \"@/components\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725371708633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import logo from \"@/components\"\n+import logo from \"@/components/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n@@ -37,9 +37,9 @@\n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n-                    <Logo />\n+                    <logo />\n                     <h2 className=\"text-2xl font-bold\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n"
+                },
+                {
+                    "date": 1725371714763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             h-[60px] items-center\" >\n              <NavigationMenuList>\n                 <NavigationMenuItem>\n                     <Link href=\"/\" className=\"flex items-center space-x-2\">\n-                    <logo />\n+                    <Logo />\n                     <h2 className=\"text-2xl font-bold\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n"
+                },
+                {
+                    "date": 1725371720179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import logo from \"@/components/logo\"\n+import Logo from \"@/components/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725371879528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,4 +47,6 @@\n \n         </div>\n     )\n }\n+\n+\n"
+                },
+                {
+                    "date": 1725371990566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import Logo from \"@/components/logo\"\n+import Logo from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372030191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import Logo from \"@/components/ui/logo\"\n+import # from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372042451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import # from \"@/components/ui/logo\"\n+import {Logo} from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372058821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import {Logo} from \"@/components/ui/logo\"\n+import {logo} from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372070100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import {logo} from \"@/components/ui/logo\"\n+import { logo} from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372113700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import { logo} from \"@/components/ui/logo\"\n+import { Logo } from \"@/components/ui/logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372122308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import { Logo } from \"@/components/ui/logo\"\n+import { Logo } from \"@/components/ui/Logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n"
+                },
+                {
+                    "date": 1725372170469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,17 +2,17 @@\n \"use client \"\n // importation de link pour les lient fournis par next\n import Link from \"next/link\"\n \n-import { Logo } from \"@/components/ui/Logo\"\n // importation du menu de navigation \n \n import {\n     NavigationMenu,\n     NavigationMenuItem,\n     NavigationMenuLink,\n     NavigationMenuList\n }from \"@/components/ui/navigation-menu\"\n+import { Logo } from \"@/components/ui/Logo\"\n \n const navigation = [\n     {\n         item: \"Home\",\n"
+                },
+                {
+                    "date": 1725375699245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,10 @@\n                     <h2 className=\"text-2xl font-bold\">Medicy</h2>\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n+\n+             \n             </NavigationMenu>\n \n         </div>\n     )\n"
+                },
+                {
+                    "date": 1725375705330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,11 @@\n                     </Link>\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n \n-             \n+             <NavigationMenuList>\n+                \n+             </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n     )\n"
+                },
+                {
+                    "date": 1725375727209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n \n              <NavigationMenuList>\n-                \n+                N\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n"
+                },
+                {
+                    "date": 1725375735785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n                 </NavigationMenuItem>\n              </NavigationMenuList>\n \n              <NavigationMenuList>\n-                <NavigationMenuItem\n+                <NavigationMenuItem>\n              </NavigationMenuList>\n             </NavigationMenu>\n \n         </div>\n"
+                },
+                {
+                    "date": 1725377371199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,72 @@\n+// composant coté client\n+\"use client \"\n+// importation de link pour les lient fournis par next\n+import Link from \"next/link\"\n+\n+// importation du menu de navigation \n+\n+import {\n+    NavigationMenu,\n+    NavigationMenuItem,\n+    NavigationMenuLink,\n+    NavigationMenuList\n+}from \"@/components/ui/navigation-menu\"\n+import { Logo } from \"@/components/ui/Logo\"\n+import { link } from \"fs\"\n+\n+const navigation = [\n+    {\n+        id:1,\n+        item: \"Home\",\n+\n+    },\n+    {\n+        id:1,\n+        item: \"About\"\n+    },\n+    {\n+        item: \"Customers\"\n+    },\n+    {\n+        item: \"Contact\"\n+    },\n+    {\n+        item: \"Pricing\"\n+    }\n+]\n+export const Navbar = () =>  {\n+    return(\n+        <div className=\"flex items-center justify-center w-full pt-8 select-none \">\n+            <NavigationMenu  className=\"w-full max-w-[1200px] justify-between px-5 py-2 \n+            h-[60px] items-center\" >\n+             <NavigationMenuList>\n+                <NavigationMenuItem>\n+                    <Link href=\"/\" className=\"flex items-center space-x-2\">\n+                    <Logo />\n+                    <h2 className=\"text-2xl font-bold\">Medicy</h2>\n+                    </Link>\n+                </NavigationMenuItem>\n+             </NavigationMenuList>\n+\n+             <NavigationMenuList className=\"flex items-center justify-around font-light \n+             space-x-14 text-xs\">\n+                {/* recupére a chaque foi le lient */}\n+               {navigation.map( (link) => (\n+                <NavigationMenuItem className=\"cursor-pointer hover:underline\">\n+                          {link.item}          \n+                </NavigationMenuItem>\n+\n+               ))}\n+\n+                        \n+               \n+               \n+             </NavigationMenuList>\n+\n+            </NavigationMenu>\n+\n+        </div>\n+    )\n+}\n+\n+\n"
+                }
+            ],
+            "date": 1725370286788,
+            "name": "Commit-0",
+            "content": "\"use\""
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "sourceFile": "app/_components/BackgroundImage.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 36,
+            "patches": [
+                {
+                    "date": 1725369669657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725369675869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export const \n\\ No newline at end of file\n+export const BackgroundImages ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369682697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export const BackgroundImages ()\n\\ No newline at end of file\n+export const BackgroundImages = ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369691807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-export const BackgroundImages = ()\n\\ No newline at end of file\n+export const BackgroundImages = () => {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369712497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export const BackgroundImages = () => {\n-    \n+      return\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369718321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n export const BackgroundImages = () => {\n-      return\n+      return (\n+        <I\n+      )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369726373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const BackgroundImages = () => {\n       return (\n-        <I\n+        <Image \n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369734269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n+        />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369739348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n+           s\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369747585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n-           s\n+           src={}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369777348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n+\n+\n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={}\n+           src={\"\"}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369782644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+import\n \n-\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={\"\"}\n"
+                },
+                {
+                    "date": 1725369790277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n-import\n+import Image from \"next/image\"\n \n+\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={\"\"}\n"
+                },
+                {
+                    "date": 1725369808017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Image from \"next/image\"\n+impor\n \n-\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={\"\"}\n"
+                },
+                {
+                    "date": 1725369814384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Image from \"next/image\"\n-impor\n+import bg\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n"
+                },
+                {
+                    "date": 1725369820320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Image from \"next/image\"\n-import bg\n+import bgIm\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n"
+                },
+                {
+                    "date": 1725369825720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Image from \"next/image\"\n-import bgIm\n+import bgImage from \n \n export const BackgroundImages = () => {\n       return (\n         <Image \n"
+                },
+                {
+                    "date": 1725369832402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Image from \"next/image\"\n-import bgImage from \n+import bgImage from '@/'\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n"
+                },
+                {
+                    "date": 1725369839607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Image from \"next/image\"\n-import bgImage from '@/'\n+import bgImage from '@/public/'\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n"
+                },
+                {
+                    "date": 1725369846118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import Image from \"next/image\"\n-import bgImage from '@/public/'\n+import bgImage from '@/public/background.webp'\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={\"\"}\n+           src={\"ba\"}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369851302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={\"ba\"}\n+           src={\"background\"}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369857914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={\"background\"}\n+           src={\"background.webp\"}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369893444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={\"background.webp\"}\n+           src={\"backg\"}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369898490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={\"backg\"}\n+           src={}\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369906197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \n export const BackgroundImages = () => {\n       return (\n         <Image \n-           src={}\n+           src={bgImage}\n+           alt=\"\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369923125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={bgImage}\n-           alt=\"\"\n+           alt=\"ba\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369929528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={bgImage}\n-           alt=\"ba\"\n+           alt=\"B\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369936886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n export const BackgroundImages = () => {\n       return (\n         <Image \n            src={bgImage}\n-           alt=\"B\"\n+           alt=\"Background\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369944172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n       return (\n         <Image \n            src={bgImage}\n            alt=\"Background\"\n+           placeholder=\"\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369964522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n       return (\n         <Image \n            src={bgImage}\n            alt=\"Background\"\n-           placeholder=\"\"\n+           placeholder=\"blur\"\n+           fill\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369970378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n         <Image \n            src={bgImage}\n            alt=\"Background\"\n            placeholder=\"blur\"\n-           fill\n+           fill \n+           sizes=\"\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369983221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n            src={bgImage}\n            alt=\"Background\"\n            placeholder=\"blur\"\n            fill \n-           sizes=\"\"\n+           sizes=\"100vw\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370026809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n            alt=\"Background\"\n            placeholder=\"blur\"\n            fill \n            sizes=\"100vw\"\n+           className=\"object\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370032525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n            alt=\"Background\"\n            placeholder=\"blur\"\n            fill \n            sizes=\"100vw\"\n-           className=\"object\"\n+           className=\"object-cover \"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370039506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n            alt=\"Background\"\n            placeholder=\"blur\"\n            fill \n            sizes=\"100vw\"\n-           className=\"object-cover \"\n+           className=\"object-cover z\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725370047987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n            alt=\"Background\"\n            placeholder=\"blur\"\n            fill \n            sizes=\"100vw\"\n-           className=\"object-cover z\"\n+           className=\"object-cover z-[-1]\"\n         />\n       )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725380912020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,8 @@\n            sizes=\"100vw\"\n            className=\"object-cover z-[-1]\"\n         />\n       )\n-}\n\\ No newline at end of file\n+}\n+\n+\n+\n"
+                }
+            ],
+            "date": 1725369669657,
+            "name": "Commit-0",
+            "content": "export const "
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "sourceFile": "app/(landing)/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1725369454386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725369472412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n    import Image from \"next/image\";\n \n-export default function () {\n+export default function landingpage() {\n+\n+  \n   return (\n                <div>\n                 \n                </div>\n"
+                },
+                {
+                    "date": 1725369489477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-   import Image from \"next/image\";\n+  \n \n export default function landingpage() {\n \n-  \n+\n   return (\n                <div>\n                 \n                </div>\n"
+                },
+                {
+                    "date": 1725369523661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n   \n+const =  landingpage() {\n \n-export default function landingpage() {\n \n-\n   return (\n                <div>\n                 \n                </div>\n"
+                },
+                {
+                    "date": 1725369529906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   \n-const =  landingpage() {\n+const  landingpage() {\n \n \n   return (\n                <div>\n"
+                },
+                {
+                    "date": 1725369541860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   \n-const  landingpage() {\n+const  landingpage )() {\n \n \n   return (\n                <div>\n"
+                },
+                {
+                    "date": 1725369548937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   \n-const  landingpage )() {\n+const  landingpage = () =>{\n \n \n   return (\n                <div>\n"
+                },
+                {
+                    "date": 1725369559462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n   \n-const  landingpage = () =>{\n+const  landingpage = () => {\n \n \n   return (\n                <div>\n                 \n                </div>\n   );\n }\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725369565960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+  \n+const  landingpage = () => {\n+\n+\n+  return (\n+               <div>\n+                \n+               </div>\n+  );\n+}\n+export default Land\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378254027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,20 +3,9 @@\n \n \n   return (\n                <div>\n-                \n+                    \n                </div>\n   );\n }\n-export default Land\n-  \n-const  landingpage = () => {\n-\n-\n-  return (\n-               <div>\n-                \n-               </div>\n-  );\n-}\n\\ No newline at end of file\n-export default \n+export default landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378261019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div>\n+               <div className=\"flex \">\n                     \n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1725378266084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div className=\"flex \">\n+               <div className=\"flex items-center \">\n                     \n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1725378282133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div className=\"flex items-center \">\n+               <div className=\"flex items-center justify-center w-\">\n                     \n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1725378305051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div className=\"flex items-center justify-center w-\">\n-                    \n+               <div className=\"flex items-center justify-center w-full\">\n+                    <\n                </div>\n   );\n }\n export default landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378310628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n \n   return (\n                <div className=\"flex items-center justify-center w-full\">\n-                    <\n+                    <Hero />\n                </div>\n   );\n }\n export default landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378480745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-  \n+  imp\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725378496318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-  imp\n+\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725379765367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+imp\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725379775102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-imp\n+\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725379802187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+imp\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725379808536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-imp\n+import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n   return (\n"
+                },
+                {
+                    "date": 1725380161876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n-  return (\n-               <div className=\"flex items-center justify-center w-full\">\n+  return (\">\n                     <Hero />\n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1725380171957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n-  return (\">\n+  return (\n+               <div className=\"flex items-center justify-center \">\n                     <Hero />\n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1725380189814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div className=\"flex items-center justify-center \">\n+               <div className=\"flex items-center justify-center w-full\">\n                     <Hero />\n                </div>\n   );\n }\n"
+                }
+            ],
+            "date": 1725369454386,
+            "name": "Commit-0",
+            "content": "   import Image from \"next/image\";\n\nexport default function () {\n  return (\n               <div>\n                \n               </div>\n  );\n}\n"
+        }
+    ]
+}

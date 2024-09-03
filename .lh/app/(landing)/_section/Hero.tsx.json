@@ -1,0 +1,486 @@
+{
+    "sourceFile": "app/(landing)/_section/Hero.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 117,
+            "patches": [
+                {
+                    "date": 1725378433591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725378441787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-im\n\\ No newline at end of file\n+import link from \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378449269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import link from \n\\ No newline at end of file\n+import link from \"ne\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378456918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import link from \"ne\"\n\\ No newline at end of file\n+import link from \"next/link\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378462004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-import link from \"next/link\"\n\\ No newline at end of file\n+import link from \"next/link\"\n+\n+imp\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378470850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import link from \"next/link\"\n \n-imp\n\\ No newline at end of file\n+import I\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378476381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n import link from \"next/link\"\n \n-import I\n\\ No newline at end of file\n+import Image from \"next/image\"\n+\n+\n"
+                },
+                {
+                    "date": 1725378510442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,5 @@\n \n import Image from \"next/image\"\n \n \n+im\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378520392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n \n import Image from \"next/image\"\n \n \n-im\n\\ No newline at end of file\n+import {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378525707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n \n import Image from \"next/image\"\n \n \n-import {}\n\\ No newline at end of file\n+import { Button } from \"@/components/ui/button\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378532509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n \n import Image from \"next/image\"\n \n \n-import { Button } from \"@/components/ui/button\"\n\\ No newline at end of file\n+import { Button } from \"@/components/ui/button\"\n+\n"
+                },
+                {
+                    "date": 1725378538761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,5 @@\n \n \n import { Button } from \"@/components/ui/button\"\n \n+const H\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378547253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n \n \n import { Button } from \"@/components/ui/button\"\n \n-const H\n\\ No newline at end of file\n+const Hero ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378555067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n \n \n import { Button } from \"@/components/ui/button\"\n \n-const Hero ()\n\\ No newline at end of file\n+const Hero () => {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378561896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \n \n import { Button } from \"@/components/ui/button\"\n \n-const Hero () => {\n-    \n+const Hero = () => {\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378572914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,8 @@\n \n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n-\n+        return(\n+            \n+        )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378600024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-            \n+             \n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378617141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             \n+             <sec\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378624295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <sec\n+             <section className=\"\">\n+\n+             </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378629844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"\">\n+             <section className=\"w-full\">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378635374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full\">\n+             <section className=\"w-full max-\">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378643402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-\">\n+             <section cla1200ssName=\"w-full max-[]\">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378649883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section cla1200ssName=\"w-full max-[]\">\n+             <section className=\"w-full max-[12]\">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378661203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[12]\">\n+             <section className=\"w-full max-[1200px] \">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378666806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] \">\n+             <section className=\"w-full max-[1200px] flex item\">\n \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378675773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex item\">\n-\n+             <section className=\"w-full max-[1200px] flex items-center\">\n+                 \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378683859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n \n const Hero = () => {\n         return(\n              <section className=\"w-full max-[1200px] flex items-center\">\n+\n+                \n                  \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378725089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center\">\n+             <section className=\"w-full max-[1200px] flex items-center \">\n \n-                \n+\n                  \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378733211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center \">\n+             <section className=\"w-full max-[1200px] flex items-center h-[calc]\">\n \n \n                  \n              </section>\n"
+                },
+                {
+                    "date": 1725378738837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center h-[calc]\">\n+             <section className=\"w-full max-[1200px] flex items-center h-[calc(100)]\">\n \n \n                  \n              </section>\n"
+                },
+                {
+                    "date": 1725378744048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center h-[calc(100)]\">\n+             <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-)]\">\n \n \n                  \n              </section>\n"
+                },
+                {
+                    "date": 1725378749334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-)]\">\n+             <section className=\"w-full max-[1200px] flex items-center h-[calc(100%--)]\">\n \n \n                  \n              </section>\n"
+                },
+                {
+                    "date": 1725378755137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { Button } from \"@/components/ui/button\"\n \n const Hero = () => {\n         return(\n-             <section className=\"w-full max-[1200px] flex items-center h-[calc(100%--)]\">\n+             <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n                  \n              </section>\n"
+                },
+                {
+                    "date": 1725378775568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,11 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n+                \n+\n+\n                  \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378784779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,13 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                \n+                <div className=\"\">\n \n+                </div>\n \n+\n                  \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378798384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                <div className=\"\">\n+                <div className=\"flex  jus\">\n \n                 </div>\n \n \n"
+                },
+                {
+                    "date": 1725378804411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                <div className=\"flex  jus\">\n+                <div className=\"flex  justify-between w-full\">\n \n                 </div>\n \n \n"
+                },
+                {
+                    "date": 1725378810111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                <div className=\"flex  justify-between w-full\">\n+                <div className=\"flex  justify-between w-full p-7\">\n \n                 </div>\n \n \n"
+                },
+                {
+                    "date": 1725378816808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                <div className=\"flex  justify-between w-full p-7\">\n+                <div className=\"flex  justify-between w-full pt-7\">\n \n                 </div>\n \n \n"
+                },
+                {
+                    "date": 1725378830160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n         return(\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n-                <div className=\"flex  justify-between w-full pt-7\">\n-\n+                <div className=\"flex  justify-between w-full pt-16\">\n+             \n                 </div>\n \n \n                  \n"
+                },
+                {
+                    "date": 1725378838739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,9 @@\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n-             \n+                        \n                 </div>\n-\n-\n-                 \n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378844341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n-                        \n+                        <H\n                 </div>\n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378872563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n-                        <H\n+                        <Hero\n                 </div>\n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378878840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n              <section className=\"w-full max-[1200px] flex items-center h-[calc(100%-60px)]\">\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n-                        <Hero\n+                        <HeroLeft />\n                 </div>\n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378887308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,10 @@\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n                         <HeroLeft />\n+                        <HeroRiht />\n+\n                 </div>\n              </section>\n         )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378915677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,11 @@\n \n \n                 <div className=\"flex  justify-between w-full pt-16\">\n                         <HeroLeft />\n-                        <HeroRiht />\n+                        <HeroRight />\n \n                 </div>\n              </section>\n         )\n\\ No newline at end of file\n-}\n+}\n+cons\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378922544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n                 </div>\n              </section>\n         )\n }\n-cons\n\\ No newline at end of file\n+cons Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378928933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n                 </div>\n              </section>\n         )\n }\n-cons Hero\n\\ No newline at end of file\n+cons HeroLeft\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378934720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n                 </div>\n              </section>\n         )\n }\n-cons HeroLeft\n\\ No newline at end of file\n+const HeroLeft=\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378943230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n                 </div>\n              </section>\n         )\n }\n-const HeroLeft=\n\\ No newline at end of file\n+const HeroLeft = () = >\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378949413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,7 @@\n                 </div>\n              </section>\n         )\n }\n-const HeroLeft = () = >\n\\ No newline at end of file\n+const HeroLeft = () => {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378957286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,7 @@\n              </section>\n         )\n }\n const HeroLeft = () => {\n-    \n-}\n\\ No newline at end of file\n+\n+}\n+\n"
+                },
+                {
+                    "date": 1725378963595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,4 +21,7 @@\n const HeroLeft = () => {\n \n }\n \n+const HeroRight = () => {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725378992497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,12 +16,12 @@\n \n                 </div>\n              </section>\n         )\n+        const HeroLeft = () => {\n+        \n+        }\n }\n-const HeroLeft = () => {\n \n-}\n-\n const HeroRight = () => {\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379007715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,12 +16,12 @@\n \n                 </div>\n              </section>\n         )\n-        const HeroLeft = () => {\n-        \n-        }\n-}\n+    }\n+    const HeroLeft = () => {\n+    \n+    }\n \n const HeroRight = () => {\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379016349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n              </section>\n         )\n     }\n     const HeroLeft = () => {\n-    \n+       return\n     }\n \n const HeroRight = () => {\n     \n"
+                },
+                {
+                    "date": 1725379021851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,13 @@\n              </section>\n         )\n     }\n     const HeroLeft = () => {\n-       return\n+       return (\n+\n+       )\n     }\n \n const HeroRight = () => {\n+    ret\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379033105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,10 @@\n        )\n     }\n \n const HeroRight = () => {\n-    ret\n+    return(\n+\n+        \n+    )\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379059314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,14 +20,17 @@\n     }\n     const HeroLeft = () => {\n        return (\n \n+\n        )\n     }\n \n const HeroRight = () => {\n     return(\n \n-        \n+\n     )\n\\ No newline at end of file\n     \n-}\n+}\n+\n+export default H\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379073021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n        return (\n \n-\n+             <div></div>\n        )\n     }\n \n const HeroRight = () => {\n@@ -32,5 +32,5 @@\n     )\n     \n }\n \n-export default H\n\\ No newline at end of file\n+export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379080126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,11 @@\n     }\n \n const HeroRight = () => {\n     return(\n+        \n+        <div></div>\n \n-\n     )\n     \n }\n \n"
+                },
+                {
+                    "date": 1725379097438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n         )\n     }\n     const HeroLeft = () => {\n        return (\n-\n-             <div></div>\n+<\n+             <div></div>>\n        )\n     }\n \n const HeroRight = () => {\n"
+                },
+                {
+                    "date": 1725379104187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,9 @@\n         )\n     }\n     const HeroLeft = () => {\n        return (\n-<\n-             <div></div>>\n+<Image >\n        )\n     }\n \n const HeroRight = () => {\n"
+                },
+                {
+                    "date": 1725379111831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n         )\n     }\n     const HeroLeft = () => {\n        return (\n-<Image >\n+            <Image \n+            />\n        )\n     }\n \n const HeroRight = () => {\n"
+                },
+                {
+                    "date": 1725379118326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n     }\n     const HeroLeft = () => {\n        return (\n             <Image \n+            src=\"\"\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379126209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n        return (\n             <Image \n-            src=\"\"\n+            src=\"/public\"\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379140573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n        return (\n             <Image \n-            src=\"/public\"\n+            src=\"/public/hero-image.png\"\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379155854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     const HeroLeft = () => {\n        return (\n             <Image \n             src=\"/public/hero-image.png\"\n+            alt=\"logo\"\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379171569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n        return (\n             <Image \n-            src=\"/public/hero-image.png\"\n+            src=\"/hero-image.png\"\n             alt=\"logo\"\n             />\n        )\n     }\n"
+                },
+                {
+                    "date": 1725379179656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n        return (\n             <Image \n             src=\"/hero-image.png\"\n             alt=\"logo\"\n+            \n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379184736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n        return (\n             <Image \n             src=\"/hero-image.png\"\n             alt=\"logo\"\n-            \n+            w\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379191891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n        return (\n             <Image \n             src=\"/hero-image.png\"\n             alt=\"logo\"\n-            w\n+            width=\"\"\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379197402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n        return (\n             <Image \n             src=\"/hero-image.png\"\n             alt=\"logo\"\n-            width=\"\"\n+            width={450}\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379205358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n             <Image \n             src=\"/hero-image.png\"\n             alt=\"logo\"\n             width={450}\n+            height={450}\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379215020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n             src=\"/hero-image.png\"\n             alt=\"logo\"\n             width={450}\n             height={450}\n+            \n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379221625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n             src=\"/hero-image.png\"\n             alt=\"logo\"\n             width={450}\n             height={450}\n-            \n+            priority\n             />\n        )\n     }\n \n"
+                },
+                {
+                    "date": 1725379234890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,17 +18,9 @@\n              </section>\n         )\n     }\n     const HeroLeft = () => {\n-       return (\n-            <Image \n-            src=\"/hero-image.png\"\n-            alt=\"logo\"\n-            width={450}\n-            height={450}\n-            priority\n-            />\n-       )\n+       \n     }\n \n const HeroRight = () => {\n     return(\n"
+                },
+                {
+                    "date": 1725379241870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,18 @@\n        \n     }\n \n const HeroRight = () => {\n-    return(\n-        \n-        <div></div>\n-\n-    )\n     \n+    return (\n+        <Image \n+        src=\"/hero-image.png\"\n+        alt=\"logo\"\n+        width={450}\n+        height={450}\n+        priority\n+        />\n+   )\n+    \n }\n \n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379253267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,15 @@\n              </section>\n         )\n     }\n     const HeroLeft = () => {\n-       \n+        return(\n+        \n+            <div>\n+                \n+            </div>\n+    \n+        )\n     }\n \n const HeroRight = () => {\n     \n"
+                },
+                {
+                    "date": 1725379259343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n     }\n     const HeroLeft = () => {\n         return(\n         \n-            <div>\n-                \n+            <div className=\"fle\">\n+\n             </div>\n     \n         )\n     }\n"
+                },
+                {
+                    "date": 1725379264842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n         return(\n         \n-            <div className=\"fle\">\n+            <div className=\"flex float-start\">\n \n             </div>\n     \n         )\n"
+                },
+                {
+                    "date": 1725379273901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     }\n     const HeroLeft = () => {\n         return(\n         \n-            <div className=\"flex float-start\">\n+            <div className=\"flex float-start \">\n \n             </div>\n     \n         )\n"
+                },
+                {
+                    "date": 1725379300401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n     }\n     const HeroLeft = () => {\n         return(\n         \n-            <div className=\"flex float-start \">\n-\n+            <div className=\"flex float-start justify-between\">\n+                        \n             </div>\n     \n         )\n     }\n"
+                },
+                {
+                    "date": 1725379307972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     const HeroLeft = () => {\n         return(\n         \n             <div className=\"flex float-start justify-between\">\n+                        <Hero />\n                         \n             </div>\n     \n         )\n"
+                },
+                {
+                    "date": 1725379314404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,11 @@\n     const HeroLeft = () => {\n         return(\n         \n             <div className=\"flex float-start justify-between\">\n-                        <Hero />\n+                        <HeroInfo />\n+                        <HeroInfo />\n+\n                         \n             </div>\n     \n         )\n"
+                },
+                {
+                    "date": 1725379320708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         return(\n         \n             <div className=\"flex float-start justify-between\">\n                         <HeroInfo />\n-                        <HeroInfo />\n+                        <HeroD />\n \n                         \n             </div>\n     \n"
+                },
+                {
+                    "date": 1725379332281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,11 @@\n     const HeroLeft = () => {\n         return(\n         \n             <div className=\"flex float-start justify-between\">\n+                \n                         <HeroInfo />\n-                        <HeroD />\n+                        <HeroDL />\n \n                         \n             </div>\n     \n"
+                },
+                {
+                    "date": 1725379347200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     const HeroLeft = () => {\n         return(\n         \n             <div className=\"flex float-start justify-between\">\n-                \n+\n                         <HeroInfo />\n                         <HeroDL />\n \n                         \n@@ -45,5 +45,7 @@\n    )\n     \n }\n \n+\n+\n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379356632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,6 +46,6 @@\n     \n }\n \n \n-\n+const HeroInfo = \n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379363734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,6 +46,8 @@\n     \n }\n \n \n-const HeroInfo = \n+const HeroInfo = () => {\n+    \n+}\n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379370460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,7 +47,9 @@\n }\n \n \n const HeroInfo = () => {\n-    \n+    return (\n+        \n+    )\n }\n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379378951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,15 @@\n \n \n const HeroInfo = () => {\n     return (\n+\n+    )\n+}\n+\n+\n+const HeroInfo = () => {\n+    return (\n         \n     )\n }\n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379385641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     )\n }\n \n \n-const HeroInfo = () => {\n+const HeroDL = () => {\n     return (\n         \n     )\n }\n"
+                },
+                {
+                    "date": 1725379404607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-\n+            \n     )\n }\n \n \n"
+                },
+                {
+                    "date": 1725379410559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,11 @@\n \n \n const HeroInfo = () => {\n     return (\n-            \n+            <div>\n+                \n+            </div>\n     )\n }\n \n \n"
+                },
+                {
+                    "date": 1725379437626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,16 +49,18 @@\n \n const HeroInfo = () => {\n     return (\n             <div>\n-                \n+\n             </div>\n     )\n }\n \n \n const HeroDL = () => {\n     return (\n-        \n+          <div>\n+                \n+            </div>\n     )\n }\n export default Hero\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725379443719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div>\n+            <div la>\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379450038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div la>\n+            <div className=\"flex \">\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379455186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div className=\"flex \">\n+            <div className=\"flex flex-col\">\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379463531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div className=\"flex flex-col\">\n+            <div className=\"flex flex-col space\">\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379475635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div className=\"flex flex-col space\">\n+            <div className=\"flex flex-col space-y\">\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379481263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div className=\"flex flex-col space-y\">\n+            <div className=\"flex flex-col space-y-6  sele\">\n \n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379509313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,10 +48,10 @@\n \n \n const HeroInfo = () => {\n     return (\n-            <div className=\"flex flex-col space-y-6  sele\">\n-\n+            <div className=\"flex flex-col space-y-6  select-none\">\n+                \n             </div>\n     )\n }\n \n"
+                },
+                {
+                    "date": 1725379515674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,11 @@\n \n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n-                \n+                <h1>\n+                    \n+                </h1>\n             </div>\n     )\n }\n \n"
+                },
+                {
+                    "date": 1725379521928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    \n+                    w\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379529678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    w\n+                    welcome to \n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379536512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to \n+                    welcome to <br .></br .>\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379543891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to <br .></br .>\n+                    welcome to <br />\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379549351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to <br />\n+                    welcome to <br />     Cryp\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379557293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to <br />     Cryp\n+                    welcome to <br />     Cryptocu\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379563167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to <br />     Cryptocu\n+                    welcome to <br />     <Cryptocurrentcy></Cryptocurrentcy>\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379572466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to <br />     <Cryptocurrentcy></Cryptocurrentcy>\n+                    welcome to  <br />     Cryptocurrentcy <br /> \n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379582255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    welcome to  <br />     Cryptocurrentcy <br /> \n+                    Welcome to  <br />     Cryptocurrentcy <br />  \n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379591118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    Welcome to  <br />     Cryptocurrentcy <br />  \n+                    Welcome to  <br />     Cryptocurrentcy <br />  <span> Socila</span>\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379596994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    Welcome to  <br />     Cryptocurrentcy <br />  <span> Socila</span>\n+                    Welcome to  <br />     Cryptocurrentcy <br />  <span> Social </span>\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379614756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n                 <h1>\n-                    Welcome to  <br />     Cryptocurrentcy <br />  <span> Social </span>\n+                    Welcome to  <br />     Cryptocurrentcy <br />  <span>Social Media</span>\n                 </h1>\n             </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1725379636939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n \n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n-                <h1>\n+                <h1 className=\"\">\n                     Welcome to  <br />     Cryptocurrentcy <br />  <span>Social Media</span>\n                 </h1>\n             </div>\n     )\n"
+                },
+                {
+                    "date": 1725379643038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n \n const HeroInfo = () => {\n     return (\n             <div className=\"flex flex-col space-y-6  select-none\">\n-                <h1 className=\"font-bo\">\n+                <h1 className=\"font-bold\">\n                     Welcome to  <br />     Cryptocurrentcy <br />  <span>Social Media</span>\n                 </h1>\n             </div>\n     )\n"
+                }
+            ],
+            "date": 1725378433591,
+            "name": "Commit-0",
+            "content": "im"
+        }
+    ]
+}

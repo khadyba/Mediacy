@@ -1,0 +1,66 @@
+{
+    "sourceFile": "components/ui/Logo.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1725372104286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1725372231090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"/public/logo.png\"}\n+        src={\"public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n@@ -13,5 +13,5 @@\n \n         />\n     )\n }\n-export default logo\n\\ No newline at end of file\n+export default Logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725372241556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"public/logo.png\"}\n+        src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n"
+                },
+                {
+                    "date": 1725372276069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"/public/logo.png\"}\n+        src={\"/public/lo\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n"
+                },
+                {
+                    "date": 1725372281667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"/public/lo\"}\n+        src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n"
+                },
+                {
+                    "date": 1725372288679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"/public/logo.png\"}\n+        src={\"/public/logo\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n"
+                },
+                {
+                    "date": 1725372314752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n export const Logo = () => {\n     return(\n         <Image \n-        src={\"/public/logo\"}\n+        src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n@@ -13,5 +13,4 @@\n \n         />\n     )\n }\n-export default Logo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1725372346292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import Image from \"next/image\";\n \n export const Logo = () => {\n     return(\n+        \n         <Image \n         src={\"/public/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n"
+                },
+                {
+                    "date": 1725372371458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import Image from \"next/image\";\n \n export const Logo = () => {\n     return(\n-        \n+\n         <Image \n-        src={\"/public/logo.png\"}\n+        src={\"//logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n"
+                },
+                {
+                    "date": 1725375609095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n export const Logo = () => {\n     return(\n \n         <Image \n-        src={\"//logo.png\"}\n+        src={\"/logo.png\"}\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"cursor-pointer\"\n+        className=\"cursor-pointer \"\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725375625972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"cursor-pointer \"\n+        className=\"cursor-pointer w-auto\"\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725375631822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"cursor-pointer w-auto\"\n+        className=\"cursor-pointer w-auto h-[]\"\n \n \n         />\n     )\n"
+                },
+                {
+                    "date": 1725375640073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         alt=\"Mediacy\"\n         width={36}\n         height={36}\n         priority\n-        className=\"cursor-pointer w-auto h-[]\"\n+        className=\"cursor-pointer w-auto h-\"\n \n \n         />\n     )\n"
+                }
+            ],
+            "date": 1725372104286,
+            "name": "Commit-0",
+            "content": "import Image from \"next/image\";\n\nexport const Logo = () => {\n    return(\n        <Image \n        src={\"/public/logo.png\"}\n        alt=\"Mediacy\"\n        width={36}\n        height={36}\n        priority\n        className=\"cursor-pointer\"\n\n\n        />\n    )\n}\nexport default logo"
+        }
+    ]
+}
