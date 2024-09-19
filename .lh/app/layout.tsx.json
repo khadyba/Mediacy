@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 65,
             "patches": [
                 {
                     "date": 1725368421167,
@@ -112,6 +112,162 @@
                 {
                     "date": 1725370229807,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n   children: React.ReactNode;\n }>) {\n   return (\n     <html lang=\"en\">\n-      <body className={poppins.className}>{children}</div> \n+      <body className={poppins.className}>{children}</body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726746722751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n+import '../config/i18n'; // Assure-toi que la configuration est chargée\n+import '../styles/globals.css'; // Autres styles globaux\n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n \n"
+                },
+                {
+                    "date": 1726746732809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n-import '../config/i18n'; // Assure-toi que la configuration est chargée\n+import '../config/i18n'; \n import '../styles/globals.css'; // Autres styles globaux\n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726747287296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n-import \"./globals.css\";\n+// import \"./globals.css\";\n import '../config/i18n'; \n-import '../styles/globals.css'; // Autres styles globaux\n+import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n \n"
+                },
+                {
+                    "date": 1726747365584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n // import \"./globals.css\";\n import '../config/i18n'; \n-import '../styles/globals.css'; \n+// import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n \n"
+                },
+                {
+                    "date": 1726747869518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n-// import \"./globals.css\";\n+import \"./globals.css\";\n import '../config/i18n'; \n+\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726748216377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n+import { LanguageProvider } from '../context/LanguageContext'; // Chemin vers le fichier de contexte\n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726748223573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { LanguageProvider } from '../context/LanguageContext'; // Chemin vers le fichier de contexte\n+import { LanguageProvider } from '../context/LanguageContext'; // C\n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726748269401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { LanguageProvider } from '../context/LanguageContext'; // C\n+import { LanguageProvider } from '..'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726748280674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { LanguageProvider } from '..'; \n+import { LanguageProvider } from '../context'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726748309925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { LanguageProvider } from '../context'; \n+import { LanguageProvider } from '../context/LanguageContext'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n@@ -20,8 +20,9 @@\n   children: React.ReactNode;\n }>) {\n   return (\n     <html lang=\"en\">\n-      <body className={poppins.className}>{children}</body> \n+      <body className={poppins.className}>\n+        {children}</body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726748315633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,10 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-        {children}</body> \n+        \n+        {children}\n+        </body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726748332845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,12 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-        \n-        {children}\n+\n+       <LanguageProvider>\n+      {children}\n+    </LanguageProvider>\n         </body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726748352420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,12 +21,11 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-\n-       <LanguageProvider>\n-      {children}\n-    </LanguageProvider>\n+          <LanguageProvider>\n+          {children}\n+        </LanguageProvider>\n         </body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726749297197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import \"./globals.css\";\n import '../config/i18n'; \n import { LanguageProvider } from '../context/LanguageContext'; \n \n+\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726749302632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { LanguageProvider } from '../context/LanguageContext'; \n+import React, { createContext } from 'react';\n \n \n // import '../styles/globals.css'; \n \n"
+                },
+                {
+                    "date": 1726749321804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     <html lang=\"en\">\n       <body className={poppins.className}>\n           <LanguageProvider>\n           {children}\n-        </LanguageProvider>\n+       \n         </body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726749398651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import React, { createContext } from 'react';\n+import React, { createContext, useState } from 'react';\n \n \n // import '../styles/globals.css'; \n \n@@ -22,9 +22,8 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-          <LanguageProvider>\n           {children}\n        \n         </body> \n     </html>\n"
+                },
+                {
+                    "date": 1726749415718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,11 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-          {children}\n+      <MyContext.Provider value={{ state, setState }}>\n+      {children}\n+    </MyContext.Provider>\n        \n         </body> \n     </html>\n   );\n"
+                },
+                {
+                    "date": 1726749439826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-      <MyContext.Provider value={{ state, setState }}>\n-      {children}\n-    </MyContext.Provider>\n+          {children}\n        \n         </body> \n     </html>\n   );\n"
+                },
+                {
+                    "date": 1726749522200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import React, { createContext, useState } from 'react';\n \n \n // import '../styles/globals.css'; \n \n"
+                },
+                {
+                    "date": 1726750663275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import type { Metadata } from \"next\";\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n+import { clear } from \"console\";\n \n-\n+clear\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726751117894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-import type { Metadata } from \"next\";\n+import type { Metadata } from \"next\";import { Metadata } from 'next';\n+\n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n-import { clear } from \"console\";\n \n-clear\n+\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726751135146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import type { Metadata } from \"next\";import { Metadata } from 'next';\n+import { Metadata } from 'next';\n \n import { Poppins} from \"next/font/google\";\n import \"./globals.css\";\n import '../config/i18n'; \n"
+                },
+                {
+                    "date": 1726751280122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n-import { Metadata } from 'next';\n-\n-import { Poppins} from \"next/font/google\";\n+import type { Metadata } from 'next'; // Assurez-vous que ce chemin est correct\n+import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n \n \n"
+                },
+                {
+                    "date": 1726751288232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import type { Metadata } from 'next'; // Assurez-vous que ce chemin est correct\n+import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n \n"
+                },
+                {
+                    "date": 1726752091755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n \n-\n+import { LanguageProvider } from '../context/LanguageContext';\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n"
+                },
+                {
+                    "date": 1726752106298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n+      <LanguageProvider>\n           {children}\n        \n         </body> \n     </html>\n"
+                },
+                {
+                    "date": 1726752112068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-      <LanguageProvider>\n+      <LanguageProvider></LanguageProvider>\n           {children}\n        \n         </body> \n     </html>\n"
+                },
+                {
+                    "date": 1726752117803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-      <LanguageProvider></LanguageProvider>\n+      <LanguageProvider>\n           {children}\n        \n         </body> \n     </html>\n"
+                },
+                {
+                    "date": 1726752140107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n@@ -23,8 +24,9 @@\n     <html lang=\"en\">\n       <body className={poppins.className}>\n       <LanguageProvider>\n           {children}\n+          </LanguageProvider>\n        \n         </body> \n     </html>\n   );\n"
+                },
+                {
+                    "date": 1726752146173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use\"\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n"
+                },
+                {
+                    "date": 1726752161643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\"use\"\n+\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n"
+                },
+                {
+                    "date": 1726752325424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use client\"; \n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n"
+                },
+                {
+                    "date": 1726752448842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-\"use client\"; \n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n"
+                },
+                {
+                    "date": 1726752461364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n import '../config/i18n'; \n \n-import { LanguageProvider } from '../context/LanguageContext';\n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n   weight:['300','400','500','600','700'] });\n@@ -21,9 +20,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-      <LanguageProvider>\n+     \n           {children}\n           </LanguageProvider>\n        \n         </body> \n"
+                },
+                {
+                    "date": 1726753339977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,12 +20,9 @@\n }>) {\n   return (\n     <html lang=\"en\">\n       <body className={poppins.className}>\n-     \n-          {children}\n-          </LanguageProvider>\n-       \n+          {children}       \n         </body> \n     </html>\n   );\n }\n"
+                },
+                {
+                    "date": 1726760490908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n-import '../config/i18n'; \n+import    '../config/i18n'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726760498595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n-import    '../config/i18n'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
+                },
+                {
+                    "date": 1726760523032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import type { Metadata } from 'next';\n import { Poppins } from 'next/font/google';\n import \"./globals.css\";\n+import    '../config/i18n'; \n \n // import '../styles/globals.css'; \n \n const poppins = Poppins({ subsets: [\"latin\"], \n"
                 }
             ],
             "date": 1725368421167,

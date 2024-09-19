@@ -1,0 +1,26 @@
+{
+    "sourceFile": "next-i18next.config.mjs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1726748969941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726760606534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+\n+\n // next-i18next.config.mjs\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n"
+                },
+                {
+                    "date": 1726760628900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-\n // next-i18next.config.mjs\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n"
+                }
+            ],
+            "date": 1726748969941,
+            "name": "Commit-0",
+            "content": "// next-i18next.config.mjs\nexport const i18n = {\n  locales: ['en', 'fr'],\n  defaultLocale: 'en',\n};\n"
+        }
+    ]
+}

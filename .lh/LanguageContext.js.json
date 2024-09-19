@@ -1,0 +1,18 @@
+{
+    "sourceFile": "LanguageContext.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1726748178996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1726748178996,
+            "name": "Commit-0",
+            "content": "// LanguageContext.js\nimport React, { createContext, useState } from 'react';\n\n// Crée le contexte\nconst LanguageContext = createContext();\n\n// Fournit le contexte aux composants enfants\nconst LanguageProvider = ({ children }) => {\n  const [language, setLanguage] = useState('en');\n\n  const changeLanguage = (lang) => {\n    setLanguage(lang);\n    // Logique pour changer la langue de l'application\n  };\n\n  return (\n    <LanguageContext.Provider value={{ language, changeLanguage }}>\n      {children}\n    </LanguageContext.Provider>\n  );\n};\n\nexport { LanguageContext, LanguageProvider };\n"
+        }
+    ]
+}

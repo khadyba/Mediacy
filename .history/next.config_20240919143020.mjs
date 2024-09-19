@@ -1,0 +1,13 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
+
+
+// next.config.mjs
+import { i18n } from './next-i18next.config.mjs';
+
+export default {
+  i18n,
+};
+

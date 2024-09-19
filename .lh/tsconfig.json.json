@@ -1,0 +1,30 @@
+{
+    "sourceFile": "tsconfig.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1726750473757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726750744528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,20 +11,15 @@\n     \"resolveJsonModule\": true,\n     \"isolatedModules\": true,\n     \"jsx\": \"preserve\",\n     \"incremental\": true,\n-    \"plugins\": [\n-      {\n-        \"name\": \"next\"\n-      }\n+    \"typeRoots\": [\n+      \"./node_modules/@types\",\n+      \"./types\"\n     ],\n     \"paths\": {\n       \"@/*\": [\"./*\"]\n-    },\n-    \"typeRoots\": [\n-      \"./node_modules/@types\",\n-      \"./types\"\n-    ]\n+    }\n   },\n   \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.tsx\", \".next/types/**/*.ts\"],\n   \"exclude\": [\"node_modules\"]\n }\n"
+                },
+                {
+                    "date": 1726750994759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,20 +6,17 @@\n     \"strict\": true,\n     \"noEmit\": true,\n     \"esModuleInterop\": true,\n     \"module\": \"esnext\",\n-    \"moduleResolution\": \"bundler\",\n+    \"moduleResolution\": \"node\",\n     \"resolveJsonModule\": true,\n     \"isolatedModules\": true,\n     \"jsx\": \"preserve\",\n     \"incremental\": true,\n-    \"typeRoots\": [\n-      \"./node_modules/@types\",\n-      \"./types\"\n-    ],\n+    \"typeRoots\": [\"./node_modules/@types\"],\n     \"paths\": {\n       \"@/*\": [\"./*\"]\n     }\n   },\n-  \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.tsx\", \".next/types/**/*.ts\"],\n+  \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.tsx\"],\n   \"exclude\": [\"node_modules\"]\n }\n"
+                },
+                {
+                    "date": 1726751252772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\n   \"compilerOptions\": {\n+    \"target\": \"es5\",\n     \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n     \"allowJs\": true,\n     \"skipLibCheck\": true,\n     \"strict\": true,\n"
+                }
+            ],
+            "date": 1726750473757,
+            "name": "Commit-0",
+            "content": "{\n  \"compilerOptions\": {\n    \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n    \"allowJs\": true,\n    \"skipLibCheck\": true,\n    \"strict\": true,\n    \"noEmit\": true,\n    \"esModuleInterop\": true,\n    \"module\": \"esnext\",\n    \"moduleResolution\": \"bundler\",\n    \"resolveJsonModule\": true,\n    \"isolatedModules\": true,\n    \"jsx\": \"preserve\",\n    \"incremental\": true,\n    \"plugins\": [\n      {\n        \"name\": \"next\"\n      }\n    ],\n    \"paths\": {\n      \"@/*\": [\"./*\"]\n    },\n    \"typeRoots\": [\n      \"./node_modules/@types\",\n      \"./types\"\n    ]\n  },\n  \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.tsx\", \".next/types/**/*.ts\"],\n  \"exclude\": [\"node_modules\"]\n}\n"
+        }
+    ]
+}

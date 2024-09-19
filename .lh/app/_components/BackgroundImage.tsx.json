@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 47,
             "patches": [
                 {
                     "date": 1725369669657,
@@ -152,6 +152,50 @@
                 {
                     "date": 1725380912020,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,8 @@\n            sizes=\"100vw\"\n            className=\"object-cover z-[-1]\"\n         />\n       )\n-}\n\\ No newline at end of file\n+}\n+\n+\n+\n"
+                },
+                {
+                    "date": 1726742350680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,4 +15,21 @@\n }\n \n \n \n+import Image from \"next/image\";\n+import bgImage from '@/public/background.webp';\n+\n+export const BackgroundImages = () => {\n+  return (\n+    <div className=\"relative w-full h-screen overflow-hidden\">\n+      <Image \n+        src={bgImage}\n+        alt=\"Background\"\n+        placeholder=\"blur\"\n+        fill \n+        sizes=\"100vw\"\n+        className=\"object-cover absolute inset-0\"\n+      />\n+    </div>\n+  );\n+};\n"
+                },
+                {
+                    "date": 1726742364859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,5 @@\n-import Image from \"next/image\"\n-import bgImage from '@/public/background.webp'\n \n-export const BackgroundImages = () => {\n-      return (\n-        <Image \n-           src={bgImage}\n-           alt=\"Background\"\n-           placeholder=\"blur\"\n-           fill \n-           sizes=\"100vw\"\n-           className=\"object-cover z-[-1]\"\n-        />\n-      )\n-}\n \n \n \n import Image from \"next/image\";\n"
+                },
+                {
+                    "date": 1726742410117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,19 @@\n+import Image from \"next/image\"\n+import bgImage from '@/public/background.webp'\n \n+export const BackgroundImages = () => {\n+      return (\n+        <Image \n+           src={bgImage}\n+           alt=\"Background\"\n+           placeholder=\"blur\"\n+           fill \n+           sizes=\"100vw\"\n+           className=\"object-cover z-[-1]\"\n+        />\n+      )\n+}\n \n \n \n import Image from \"next/image\";\n"
+                },
+                {
+                    "date": 1726742426370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         alt=\"Background\"\n         placeholder=\"blur\"\n         fill \n         sizes=\"100vw\"\n-        className=\"object-cover absolute inset-0\"\n+        className=\"object-cover absolute inset-0 \"\n       />\n     </div>\n   );\n };\n"
+                },
+                {
+                    "date": 1726742437381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,19 @@\n-import Image from \"next/image\"\n-import bgImage from '@/public/background.webp'\n+// import Image from \"next/image\"\n+// import bgImage from '@/public/background.webp'\n \n-export const BackgroundImages = () => {\n-      return (\n-        <Image \n-           src={bgImage}\n-           alt=\"Background\"\n-           placeholder=\"blur\"\n-           fill \n-           sizes=\"100vw\"\n-           className=\"object-cover z-[-1]\"\n-        />\n-      )\n-}\n+// export const BackgroundImages = () => {\n+//       return (\n+//         <Image \n+//            src={bgImage}\n+//            alt=\"Background\"\n+//            placeholder=\"blur\"\n+//            fill \n+//            sizes=\"100vw\"\n+//            className=\"object-cover z-[-1]\"\n+//         />\n+//       )\n+// }\n \n \n \n import Image from \"next/image\";\n@@ -27,9 +27,9 @@\n         alt=\"Background\"\n         placeholder=\"blur\"\n         fill \n         sizes=\"100vw\"\n-        className=\"object-cover absolute inset-0 \"\n+        className=\"object-cover absolute inset-1\"\n       />\n     </div>\n   );\n };\n"
+                },
+                {
+                    "date": 1726742511866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,8 @@\n         alt=\"Background\"\n         placeholder=\"blur\"\n         fill \n         sizes=\"100vw\"\n-        className=\"object-cover absolute inset-1\"\n       />\n     </div>\n   );\n };\n"
+                },
+                {
+                    "date": 1726742517608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n         alt=\"Background\"\n         placeholder=\"blur\"\n         fill \n         sizes=\"100vw\"\n+        className=\"object-cover absolute inset-0\"\n       />\n     </div>\n   );\n };\n"
+                },
+                {
+                    "date": 1726742593639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,16 +20,17 @@\n import bgImage from '@/public/background.webp';\n \n export const BackgroundImages = () => {\n   return (\n-    <div className=\"relative w-full h-screen overflow-hidden\">\n+    <div className=\"absolute inset-0 w-full h-full overflow-hidden\">\n       <Image \n         src={bgImage}\n         alt=\"Background\"\n         placeholder=\"blur\"\n         fill \n         sizes=\"100vw\"\n-        className=\"object-cover absolute inset-0\"\n+        className=\"object-cover\"\n       />\n     </div>\n   );\n };\n+\n"
+                },
+                {
+                    "date": 1726742754866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n import bgImage from '@/public/background.webp';\n \n export const BackgroundImages = () => {\n   return (\n-    <div className=\"absolute inset-0 w-full h-full overflow-hidden\">\n+    <div className=\"absolute inset-0 w-full h-full overflow-hidden -z-10\">\n       <Image \n         src={bgImage}\n         alt=\"Background\"\n         placeholder=\"blur\"\n@@ -33,4 +33,5 @@\n     </div>\n   );\n };\n \n+\n"
+                },
+                {
+                    "date": 1726743150886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,25 +13,24 @@\n //         />\n //       )\n // }\n \n-\n-\n import Image from \"next/image\";\n import bgImage from '@/public/background.webp';\n \n export const BackgroundImages = () => {\n   return (\n-    <div className=\"absolute inset-0 w-full h-full overflow-hidden -z-10\">\n+    <div className=\"fixed inset-0 z-[-1] overflow-hidden\">\n       <Image \n         src={bgImage}\n         alt=\"Background\"\n+        fill \n         placeholder=\"blur\"\n-        fill \n         sizes=\"100vw\"\n-        className=\"object-cover\"\n+        className=\"object-cover w-full h-full\"\n       />\n     </div>\n   );\n };\n \n \n+\n"
+                },
+                {
+                    "date": 1726743811625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,5 @@\n-// import Image from \"next/image\"\n-// import bgImage from '@/public/background.webp'\n \n-// export const BackgroundImages = () => {\n-//       return (\n-//         <Image \n-//            src={bgImage}\n-//            alt=\"Background\"\n-//            placeholder=\"blur\"\n-//            fill \n-//            sizes=\"100vw\"\n-//            className=\"object-cover z-[-1]\"\n-//         />\n-//       )\n-// }\n \n import Image from \"next/image\";\n import bgImage from '@/public/background.webp';\n \n"
                 }
             ],
             "date": 1725369669657,

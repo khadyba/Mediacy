@@ -1,0 +1,222 @@
+{
+    "sourceFile": "context/LanguageContext.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 51,
+            "patches": [
+                {
+                    "date": 1726749165907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726749171179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n+\"use client\"\n \n \n-\n // LanguageContext.js\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n"
+                },
+                {
+                    "date": 1726749211474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n \"use client\"\n-\n-\n // LanguageContext.js\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n"
+                },
+                {
+                    "date": 1726749228832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n+export  { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726749736389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-\"use client\"\n-// LanguageContext.js\n+// src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n const LanguageContext = createContext();\n@@ -20,5 +19,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export  { LanguageContext, LanguageProvider };\n+export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726750049892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+// src/context/LanguageContext.js\n+import React, { createContext, useState } from 'react';\n+import React, { createContext, useState } from 'react';\n+\n+\n+// Crée le contexte\n+const LanguageContext = createContext();\n+\n+// Fournit le contexte aux composants enfants\n+const LanguageProvider = ({ children }) => {\n+  const [language, setLanguage] = useState('en');\n+\n+  const changeLanguage = (lang) => {\n+    setLanguage(lang);\n+    // Logique pour changer la langue de l'application\n+  };\n+\n+  return (\n+    <LanguageContext.Provider value={{ language, changeLanguage }}>\n+      {children}\n+    </LanguageContext.Provider>\n+  );\n+};\n+\n+export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726750056645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,27 +22,4 @@\n   );\n };\n \n export { LanguageContext, LanguageProvider };\n-// src/context/LanguageContext.js\n-import React, { createContext, useState } from 'react';\n-\n-// Crée le contexte\n-const LanguageContext = createContext();\n-\n-// Fournit le contexte aux composants enfants\n-const LanguageProvider = ({ children }) => {\n-  const [language, setLanguage] = useState('en');\n-\n-  const changeLanguage = (lang) => {\n-    setLanguage(lang);\n-    // Logique pour changer la langue de l'application\n-  };\n-\n-  return (\n-    <LanguageContext.Provider value={{ language, changeLanguage }}>\n-      {children}\n-    </LanguageContext.Provider>\n-  );\n-};\n-\n-export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726750268923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n-import React, { createContext, useState } from 'react';\n \n-\n // Crée le contexte\n const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726751808322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n-\n+import React, { createContext, useState } from 'react';\n // Crée le contexte\n const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726752297365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n+\n+\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n-import React, { createContext, useState } from 'react';\n // Crée le contexte\n const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726752858689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+\"use client\"; \n \n-\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n // Crée le contexte\n const LanguageContext = createContext();\n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n+export {  LanguageProvider };\n"
+                },
+                {
+                    "date": 1726752877924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export {  LanguageProvider };\n+export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726752892555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n // Crée le contexte\n-const LanguageContext = createContext();\n+ const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726753088380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \"use client\"; \n-\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726753805702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\"; \n // src/context/LanguageContext.js\n-import React, { createContext, useState } from 'react';\n+import  { createContext, useState } from 'react';\n // Crée le contexte\n  const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726753873105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n \"use client\"; \n // src/context/LanguageContext.js\n import  { createContext, useState } from 'react';\n+\n+\n // Crée le contexte\n  const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726753878708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n \"use client\"; \n+\n // src/context/LanguageContext.js\n import  { createContext, useState } from 'react';\n \n \n"
+                },
+                {
+                    "date": 1726753902809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\"; \n \n // src/context/LanguageContext.js\n-import  { createContext, useState } from 'react';\n+import React from \"react\"; { createContext, useState } from 'react';\n \n \n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726753908819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\"; \n \n // src/context/LanguageContext.js\n-import React from \"react\"; { createContext, useState } from 'react';\n+import Re { createContext, useState } from 'react';\n \n \n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726753914475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\"; \n \n // src/context/LanguageContext.js\n-import Re { createContext, useState } from 'react';\n+import React { createContext, useState } from 'react';\n \n \n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726753922006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\"; \n \n // src/context/LanguageContext.js\n-import React { createContext, useState } from 'react';\n+import React, { createContext, useState } from 'react';\n \n \n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726753937710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n \"use client\"; \n \n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n-\n-\n // Crée le contexte\n  const LanguageContext = createContext();\n \n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726753945004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,18 +3,16 @@\n // src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n // Crée le contexte\n  const LanguageContext = createContext();\n-\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n     // Logique pour changer la langue de l'application\n   };\n-\n   return (\n     <LanguageContext.Provider value={{ language, changeLanguage }}>\n       {children}\n     </LanguageContext.Provider>\n"
+                },
+                {
+                    "date": 1726759386108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n \"use client\"; \n \n-// src/context/LanguageContext.js\n import React, { createContext, useState } from 'react';\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n"
+                },
+                {
+                    "date": 1726759558256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n \"use client\"; \n \n import React, { createContext, useState } from 'react';\n+\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n@@ -18,4 +19,5 @@\n   );\n };\n \n export { LanguageContext, LanguageProvider };\n+R\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726759570209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n-R\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726759577641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };R\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760431018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \"use client\"; \n-\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n  const LanguageContext = createContext();\n@@ -18,5 +17,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };R\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760738130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,8 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n+export function useLangageContext(){\n+  Return useContext(LangageContext)\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760753228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,8 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n+// export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n   Return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760759666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,6 @@\n };\n \n // export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-  Return useContext(LangageContext)\n+  return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760789877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,8 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-// export { LanguageContext, LanguageProvider };\n+export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-  return useContext(LangageContext)\n+  Return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760796635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,6 @@\n };\n \n export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-  Return useContext(LangageContext)\n+  return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760805533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,8 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n+export {  LanguageProvider };\n export function useLangageContext(){\n   return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760811074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export {  LanguageProvider };\n+export { LanguageProvider };\n+\n export function useLangageContext(){\n   return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726760835050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n- const LanguageContext = createContext();\n+//  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726760846771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n-//  const LanguageContext = createContext();\n+ const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726760889987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageProvider };\n-\n-export function useLangageContext(){\n-  return useContext(LangageContext)\n-}\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726761149041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n+// export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726761154538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n-const LanguageProvider = ({ children }) => {\n+ esp   const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726761160351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n \"use client\"; \n+import exp from 'constants';\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- esp   const LanguageProvider = ({ children }) => {\n+ export   const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726761166865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- export   const LanguageProvider = ({ children }) => {\n+ export  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726761192961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,4 +19,7 @@\n   );\n };\n \n // export { LanguageContext, LanguageProvider };\n+export function useLangageContext(){\n+  Return useContext(LangageContext)\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761198759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,6 @@\n };\n \n // export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-  Return useContext(LangageContext)\n+  return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761256347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,7 @@\n };\n \n // export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n+  \n   return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761288276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n // Fournit le contexte aux composants enfants\n  export  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n-  const changeLanguage = (lang) => {\n+ ex const changeLanguage = (lang) => {\n     setLanguage(lang);\n     // Logique pour changer la langue de l'application\n   };\n   return (\n@@ -20,7 +20,7 @@\n };\n \n // export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-  \n+\n   return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761297427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n // Fournit le contexte aux composants enfants\n  export  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n- ex const changeLanguage = (lang) => {\n+ const changeLanguage = (lang) => {\n     setLanguage(lang);\n     // Logique pour changer la langue de l'application\n   };\n   return (\n"
+                },
+                {
+                    "date": 1726761458746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  export  const LanguageProvider = ({ children }) => {\n+  \n   const [language, setLanguage] = useState('en');\n \n  const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726761464087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,11 @@\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  export  const LanguageProvider = ({ children }) => {\n-  \n+\n   const [language, setLanguage] = useState('en');\n-\n- const changeLanguage = (lang) => {\n+  const changeLanguage = (lang) => {\n     setLanguage(lang);\n     // Logique pour changer la langue de l'application\n   };\n   return (\n"
+                },
+                {
+                    "date": 1726761578411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  export  const LanguageProvider = ({ children }) => {\n+  const [language, setLanguage] = useState('en');\n \n-  const [language, setLanguage] = useState('en');\n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n     // Logique pour changer la langue de l'application\n   };\n@@ -20,7 +20,6 @@\n };\n \n // export { LanguageContext, LanguageProvider };\n export function useLangageContext(){\n-\n   return useContext(LangageContext)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761584594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- export  const LanguageProvider = ({ children }) => {\n+ export default const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n@@ -19,7 +19,4 @@\n   );\n };\n \n // export { LanguageContext, LanguageProvider };\n-export function useLangageContext(){\n-  return useContext(LangageContext)\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726761591899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n \"use client\"; \n-import exp from 'constants';\n+\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- export default const LanguageProvider = ({ children }) => {\n+const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-// export { LanguageContext, LanguageProvider };\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1726749165907,
+            "name": "Commit-0",
+            "content": "\n\n\n// LanguageContext.js\nimport React, { createContext, useState } from 'react';\n\n// Crée le contexte\nconst LanguageContext = createContext();\n\n// Fournit le contexte aux composants enfants\nconst LanguageProvider = ({ children }) => {\n  const [language, setLanguage] = useState('en');\n\n  const changeLanguage = (lang) => {\n    setLanguage(lang);\n    // Logique pour changer la langue de l'application\n  };\n\n  return (\n    <LanguageContext.Provider value={{ language, changeLanguage }}>\n      {children}\n    </LanguageContext.Provider>\n  );\n};\n\nexport { LanguageContext, LanguageProvider };\n"
+        }
+    ]
+}

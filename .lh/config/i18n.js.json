@@ -1,0 +1,62 @@
+{
+    "sourceFile": "config/i18n.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1726746682973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726747466922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../locales/en/common.json';\n+import en from '../';\n import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726747478728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../';\n+import en from '../public';\n import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726747484867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../public';\n+import en from '../public/locales/';\n import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726747491050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../public/locales/';\n+import en from '../public/locales/en/';\n import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726747505776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../public/locales/en/';\n-import fr from '../locales/fr/common.json';\n+import en from '../public/locales/en/common.json';\n+import fr from '../pu';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747513281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../public/locales/en/common.json';\n-import fr from '../pu';\n+import fr from '../public/locales/en';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747518407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../public/locales/en/common.json';\n-import fr from '../public/locales/en';\n+import fr from '../public/locales/fr/co';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747618027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../public/locales/en/common.json';\n-import fr from '../public/locales/fr/co';\n+import en from '../locales/en/common.json';\n+import fr from '../public/locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747624860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n-import fr from '../public/locales/fr/common.json';\n+import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747631555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../locales/en/common.json';\n-import fr from '../locales/fr/common.json';\n+import en from './locales/en/common.json';\n+import fr from './locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726747649258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from './locales/en/common.json';\n+import en from '../locales/en/common.json';\n import fr from './locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                }
+            ],
+            "date": 1726746682973,
+            "name": "Commit-0",
+            "content": "// src/config/i18n.js\nimport i18n from 'i18next';\nimport { initReactI18next } from 'react-i18next';\nimport en from '../locales/en/common.json';\nimport fr from '../locales/fr/common.json';\n\n// Initialisation d'i18next\ni18n\n  .use(initReactI18next) // Passe l'instance à react-i18next\n  .init({\n    resources: {\n      en: { translation: en },\n      fr: { translation: fr },\n    },\n    lng: 'en', // Langue par défaut\n    fallbackLng: 'en', // Langue de repli\n    interpolation: {\n      escapeValue: false, // Pas nécessaire pour React\n    },\n  });\n\nexport default i18n;\n"
+        }
+    ]
+}

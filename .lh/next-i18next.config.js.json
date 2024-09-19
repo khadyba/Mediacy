@@ -1,0 +1,18 @@
+{
+    "sourceFile": "next-i18next.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1726745129356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1726745129356,
+            "name": "Commit-0",
+            "content": "// next-i18next.config.js\nmodule.exports = {\n    i18n: {\n      defaultLocale: 'en',\n      locales: ['en', 'fr'],\n    },\n  };\n  "
+        }
+    ]
+}

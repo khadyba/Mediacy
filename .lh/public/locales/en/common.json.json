@@ -1,0 +1,18 @@
+{
+    "sourceFile": "public/locales/en/common.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1726745582665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1726745582665,
+            "name": "Commit-0",
+            "content": "{\n    \"welcome\": \"Welcome to SnippetVault\",\n    \"description\": \"Measure social media performance, create great reports, and get recommendations to increase reach, engagement and sales.\",\n    \"getStarted\": \"Get started now\",\n    \"contactUs\": \"Contact Us\"\n  }\n  "
+        }
+    ]
+}

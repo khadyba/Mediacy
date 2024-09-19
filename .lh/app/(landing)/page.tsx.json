@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1725369454386,
@@ -100,6 +100,26 @@
                 {
                     "date": 1725380189814,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const  landingpage = () => {\n \n \n   return (\n-               <div className=\"flex items-center justify-center \">\n+               <div className=\"flex items-center justify-center w-full\">\n                     <Hero />\n                </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1726760015472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n"
+                },
+                {
+                    "date": 1726760021579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use client\"\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n"
+                },
+                {
+                    "date": 1726760041437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\"use client\"\n+\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n \n \n"
+                },
+                {
+                    "date": 1726760158126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n \n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n-\n-\n   return (\n                <div className=\"flex items-center justify-center w-full\">\n                     <Hero />\n                </div>\n"
+                },
+                {
+                    "date": 1726760165194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n \n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n-               <div className=\"flex items-center justify-center w-full\">\n+        <div className=\"flex items-center justify-center w-full\">\n                     <Hero />\n-               </div>\n+        </div>\n   );\n }\n export default landingpage\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1725369454386,

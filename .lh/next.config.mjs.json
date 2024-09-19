@@ -1,0 +1,70 @@
+{
+    "sourceFile": "next.config.mjs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1726745167135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726748559781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,4 +3,10 @@\n \n export default nextConfig;\n \n \n+// next.config.js\n+ const { i18n } = require('./next-i18next.config');\n+\n+module.exports = {\n+  i18n,\n+};\n"
+                },
+                {
+                    "date": 1726748568929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default nextConfig;\n \n \n // next.config.js\n- const { i18n } = require('./next-i18next.config');\n+export default const { i18n } = require('./next-i18next.config');\n \n module.exports = {\n   i18n,\n };\n"
+                },
+                {
+                    "date": 1726748585854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default nextConfig;\n \n \n // next.config.js\n-export default const { i18n } = require('./next-i18next.config');\n+export  const { i18n } = require('./next-i18next.config');\n \n module.exports = {\n   i18n,\n };\n"
+                },
+                {
+                    "date": 1726748732768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,10 @@\n const nextConfig = {};\n \n export default nextConfig;\n \n+import { i18n } from './next-i18next.config.js';\n \n-// next.config.js\n-export  const { i18n } = require('./next-i18next.config');\n-\n-module.exports = {\n+export default {\n   i18n,\n };\n+\n"
+                },
+                {
+                    "date": 1726748772416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,11 @@\n const nextConfig = {};\n \n export default nextConfig;\n \n+\n+// next.config.js\n import { i18n } from './next-i18next.config.js';\n \n-export default {\n+module.exports = {\n   i18n,\n };\n-\n"
+                },
+                {
+                    "date": 1726748841193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default nextConfig;\n \n \n // next.config.js\n-import { i18n } from './next-i18next.config.js';\n+import { i18n } from './next-i18next.config.mjs';\n \n module.exports = {\n   i18n,\n };\n"
+                },
+                {
+                    "date": 1726749020643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n \n export default nextConfig;\n \n \n-// next.config.js\n+// next.config.mjs\n import { i18n } from './next-i18next.config.mjs';\n \n-module.exports = {\n+export default {\n   i18n,\n };\n+\n"
+                },
+                {
+                    "date": 1726749034426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n /** @type {import('next').NextConfig} */\n-const nextConfig = {};\n+const nextConfig = {\n+  \n+};\n \n export default nextConfig;\n \n \n"
+                },
+                {
+                    "date": 1726749042393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n const nextConfig = {\n-  \n+  i18n,\n };\n \n export default nextConfig;\n \n@@ -9,7 +9,7 @@\n // next.config.mjs\n import { i18n } from './next-i18next.config.mjs';\n \n export default {\n-  i18n,\n+ \n };\n \n"
+                },
+                {
+                    "date": 1726749070621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,9 @@\n };\n \n export default nextConfig;\n \n-\n // next.config.mjs\n import { i18n } from './next-i18next.config.mjs';\n \n-export default {\n- \n-};\n \n+\n"
+                },
+                {
+                    "date": 1726751554355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n const nextConfig = {\n-  i18n,\n+         i18n,\n };\n \n export default nextConfig;\n \n"
+                },
+                {
+                    "date": 1726751566821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n };\n \n export default nextConfig;\n \n-// next.config.mjs\n-import { i18n } from './next-i18next.config.mjs';\n \n \n \n+\n"
+                },
+                {
+                    "date": 1726751572125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n+// next.config.mjs\n+import { i18n } from './next-i18next.config.mjs';\n+\n /** @type {import('next').NextConfig} */\n const nextConfig = {\n          i18n,\n };\n"
+                }
+            ],
+            "date": 1726745167135,
+            "name": "Commit-0",
+            "content": "/** @type {import('next').NextConfig} */\nconst nextConfig = {};\n\nexport default nextConfig;\n\n\n"
+        }
+    ]
+}
