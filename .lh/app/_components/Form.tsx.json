@@ -1,0 +1,42 @@
+{
+    "sourceFile": "app/_components/Form.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1726832825666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726832903609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n \"use client\"\n+import { Input, Button, Form } from \"@shadcn/ui\";\n"
+                },
+                {
+                    "date": 1726832978438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,51 @@\n \"use client\"\n-import { Input, Button, Form } from \"@shadcn/ui\";\n+\n+import { zodResolver } from \"@hookform/resolvers/zod\"\n+import { useForm } from \"react-hook-form\"\n+import { z } from \"zod\"\n+\n+import { Button } from \"@/components/ui/button\"\n+import {\n+  Form,\n+  FormControl,\n+  FormDescription,\n+  FormField,\n+  FormItem,\n+  FormLabel,\n+  FormMessage,\n+} from \"@/components/ui/form\"\n+import { Input } from \"@/components/ui/input\"\n+\n+const formSchema = z.object({\n+  username: z.string().min(2, {\n+    message: \"Username must be at least 2 characters.\",\n+  }),\n+})\n+\n+export function ProfileForm() {\n+  // ...\n+\n+  return (\n+    <Form {...form}>\n+      <form onSubmit={form.handleSubmit(onSubmit)} className=\"space-y-8\">\n+        <FormField\n+          control={form.control}\n+          name=\"username\"\n+          render={({ field }) => (\n+            <FormItem>\n+              <FormLabel>Username</FormLabel>\n+              <FormControl>\n+                <Input placeholder=\"shadcn\" {...field} />\n+              </FormControl>\n+              <FormDescription>\n+                This is your public display name.\n+              </FormDescription>\n+              <FormMessage />\n+            </FormItem>\n+          )}\n+        />\n+        <Button type=\"submit\">Submit</Button>\n+      </form>\n+    </Form>\n+  )\n+}\n"
+                },
+                {
+                    "date": 1726833322449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,17 +15,25 @@\n   FormMessage,\n } from \"@/components/ui/form\"\n import { Input } from \"@/components/ui/input\"\n \n+// Schéma de validation\n const formSchema = z.object({\n   username: z.string().min(2, {\n     message: \"Username must be at least 2 characters.\",\n   }),\n })\n \n export function ProfileForm() {\n-  // ...\n+  const form = useForm({\n+    resolver: zodResolver(formSchema),\n+  });\n \n+  const onSubmit = (data) => {\n+    // Logique à exécuter lors de la soumission du formulaire\n+    console.log(data);\n+  };\n+\n   return (\n     <Form {...form}>\n       <form onSubmit={form.handleSubmit(onSubmit)} className=\"space-y-8\">\n         <FormField\n"
+                },
+                {
+                    "date": 1726833352130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n               <FormMessage />\n             </FormItem>\n           )}\n         />\n-        <Button type=\"submit\">Submit</Button>\n+        <Button type=\"submit\"></Button>\n       </form>\n     </Form>\n   )\n }\n"
+                },
+                {
+                    "date": 1726833490937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     resolver: zodResolver(formSchema),\n   });\n \n   const onSubmit = (data) => {\n-    \n+    type FormData = z.infer<typeof formSchema>;\n     // Logique à exécuter lors de la soumission du formulaire\n     console.log(data);\n   };\n \n"
+                },
+                {
+                    "date": 1726833594594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,17 +20,19 @@\n const formSchema = z.object({\n   username: z.string().min(2, {\n     message: \"Username must be at least 2 characters.\",\n   }),\n-})\n+});\n \n+// Définir le type des données du formulaire\n+type FormData = z.infer<typeof formSchema>;\n+\n export function ProfileForm() {\n-  const form = useForm({\n+  const form = useForm<FormData>({\n     resolver: zodResolver(formSchema),\n   });\n \n-  const onSubmit = (data) => {\n-    type FormData = z.infer<typeof formSchema>;\n+  const onSubmit = (data: FormData) => {\n     // Logique à exécuter lors de la soumission du formulaire\n     console.log(data);\n   };\n \n@@ -52,9 +54,9 @@\n               <FormMessage />\n             </FormItem>\n           )}\n         />\n-        <Button type=\"submit\">Envoyer</Button>\n+        <Button type=\"submit\">Submit</Button>\n       </form>\n     </Form>\n   )\n }\n"
+                }
+            ],
+            "date": 1726832825666,
+            "name": "Commit-0",
+            "content": "\"use client\"\n"
+        }
+    ]
+}

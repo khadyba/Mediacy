@@ -1,0 +1,330 @@
+{
+    "sourceFile": "app/login/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 78,
+            "patches": [
+                {
+                    "date": 1726833834514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726833908970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n \n-import { ProfileForm } from \"@/components/ProfileForm\"; // Chemin vers ton composant de formulaire\n+import { ProfileForm } from \"@/\"; // Chemin vers ton composant de formulaire\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const LoginPage = () => {\n"
+                },
+                {
+                    "date": 1726833915831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n \n-import { ProfileForm } from \"@/\"; // Chemin vers ton composant de formulaire\n+import { ProfileForm } from \"@/app\"; // Chemin vers ton composant de formulaire\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const LoginPage = () => {\n"
+                },
+                {
+                    "date": 1726833921365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n \n-import { ProfileForm } from \"@/app\"; // Chemin vers ton composant de formulaire\n+import { ProfileForm } from \"@/app/_components/Form\"; // Chemin vers ton composant de formulaire\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const LoginPage = () => {\n"
+                },
+                {
+                    "date": 1726834543805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n \n-import { ProfileForm } from \"@/app/_components/Form\"; // Chemin vers ton composant de formulaire\n+import { ProfileForm } from \"@/app/_components/Form\"; \n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const LoginPage = () => {\n"
+                },
+                {
+                    "date": 1726835559484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,34 @@\n \"use client\";\n-\n import { ProfileForm } from \"@/app/_components/Form\"; \n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n+import Image from \"next/image\"; // Assure-toi d'importer Image\n \n const LoginPage = () => {\n   return (\n-    <div className=\"flex flex-col items-center justify-center min-h-screen\">\n-      <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n-      <ProfileForm />\n-      <Link href=\"/register\">\n-        <Button variant=\"secondary\" className=\"mt-4\">\n-          Créer un compte\n-        </Button>\n-      </Link>\n+    <div className=\"flex min-h-screen\">\n+      {/* Formulaire à gauche */}\n+      <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n+        <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n+        <ProfileForm />\n+        <Link href=\"/register\">\n+          <Button variant=\"secondary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n+            Créer un compte\n+          </Button>\n+        </Link>\n+      </div>\n+\n+      {/* Image à droite */}\n+      <div className=\"w-1/2\">\n+        <Image \n+          src=\"/path/to/your/image.png\" // Remplace par le chemin de ton image\n+          alt=\"Description de l'image\"\n+          layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n+          width={500} // Ajuste selon tes besoins\n+          height={500} // Ajuste selon tes besoins\n+        />\n+      </div>\n     </div>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1726835889601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n \n const LoginPage = () => {\n   return (\n     <div className=\"flex min-h-screen\">\n+      \n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n         <ProfileForm />\n"
+                },
+                {
+                    "date": 1726835897004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n const LoginPage = () => {\n   return (\n     <div className=\"flex min-h-screen\">\n-      \n+      <Back\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n         <ProfileForm />\n"
+                },
+                {
+                    "date": 1726835903202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,14 @@\n import { ProfileForm } from \"@/app/_components/Form\"; \n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n import Image from \"next/image\"; // Assure-toi d'importer Image\n+import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const LoginPage = () => {\n   return (\n     <div className=\"flex min-h-screen\">\n-      <Back\n+      <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n         <ProfileForm />\n"
+                },
+                {
+                    "date": 1726836122032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"/path/to/your/image.png\" // Remplace par le chemin de ton image\n+          src=\"\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836132880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"\" // Remplace par le chemin de ton image\n+          src=\"...\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836138106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"...\" // Remplace par le chemin de ton image\n+          src=\"@.\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836144387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"@.\" // Remplace par le chemin de ton image\n+          src=\"../\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836150325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"../\" // Remplace par le chemin de ton image\n+          src=\"/\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836156206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"/\" // Remplace par le chemin de ton image\n+          src=\"/public/images\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836202492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n-import Image from \"next/image\"; // Assure-toi d'importer Image\n+import Image from \"next/image\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const LoginPage = () => {\n   return (\n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"/public/images\" // Remplace par le chemin de ton image\n+          src=\"/public/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836379337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2\">\n         <Image \n-          src=\"/public/images/img.png\" // Remplace par le chemin de ton image\n+          src=\"/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={500} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836407141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2\">\n+      <div className=\"w-1/2 relative\">\n         <Image \n           src=\"/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836419298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         <Image \n           src=\"/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n-          width={500} // Ajuste selon tes besoins\n+          width={200} // Ajuste selon tes besoins\n           height={500} // Ajuste selon tes besoins\n         />\n       </div>\n     </div>\n"
+                },
+                {
+                    "date": 1726836436094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,15 +20,15 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative\">\n+      <div className=\"w-1/4 relative\">\n         <Image \n           src=\"/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={200} // Ajuste selon tes besoins\n-          height={500} // Ajuste selon tes besoins\n+          height={200} // Ajuste selon tes besoins\n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726836447908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/4 relative\">\n+      <div className=\"w-1/4 relative \">\n         <Image \n           src=\"/images/img.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836456162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const LoginPage = () => {\n   return (\n-    <div className=\"flex min-h-screen\">\n+    <div className=\"flex min-h-screen \">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n"
+                },
+                {
+                    "date": 1726836723860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const LoginPage = () => {\n   return (\n-    <div className=\"flex min-h-screen \">\n+    <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/4 relative \">\n         <Image \n-          src=\"/images/img.png\" // Remplace par le chemin de ton image\n+          src=\"/images/\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={200} // Ajuste selon tes besoins\n           height={200} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836818423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/4 relative \">\n         <Image \n-          src=\"/images/\" // Remplace par le chemin de ton image\n+          src=\"/images/ordi.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={200} // Ajuste selon tes besoins\n           height={200} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836824672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/4 relative \">\n         <Image \n-          src=\"/images/ordi.jpeg\" // Remplace par le chemin de ton image\n+          src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={200} // Ajuste selon tes besoins\n           height={200} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726836841092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/4 relative \">\n+      <div className=\"w-1/ relative \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836852017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/ relative \">\n+      <div className=\"w-1/2 relative m\">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836858952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative m\">\n+      <div className=\"w-1/2 relative mr-10\">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836886066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10\">\n+      <div className=\"w-1/2 relative mr-10 \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836928965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 \">\n+      <div className=\"w-1/2 relative mr-10 border-2 border-gray-300 rounded \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836952824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 border-2 border-gray-300 rounded \">\n+      <div className=\"w-1/2 relative mr-10 border-2 border-g rounded \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836959014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 border-2 border-g rounded \">\n+      <div className=\"w-1/2 relative mr-10 border-2  rounded \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836981826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 border-2  rounded \">\n+      <div className=\"w-1/2 relative mr-10 border-  rounded \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726836995866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 border-  rounded \">\n+      <div className=\"w-1/2 relative mr-10   rounded \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726837003979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10   rounded \">\n+      <div className=\"w-1/2 relative mr-10 \">\n         <Image \n           src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n"
+                },
+                {
+                    "date": 1726837010187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative mr-10 \">\n         <Image \n-          src=\"/images/photo.jpeg\" // Remplace par le chemin de ton image\n+          src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n           width={200} // Ajuste selon tes besoins\n           height={200} // Ajuste selon tes besoins\n"
+                },
+                {
+                    "date": 1726837017120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       <div className=\"w-1/2 relative mr-10 \">\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n-          layout=\"responsive\" // Utilise layout responsive pour une bonne adaptation\n+          layout=\"responsive\" \n           width={200} // Ajuste selon tes besoins\n           height={200} // Ajuste selon tes besoins\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726837028616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,10 +25,11 @@\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n-          width={200} // Ajuste selon tes besoins\n-          height={200} // Ajuste selon tes besoins\n+          width={200} \n+          height={200} \n+          className=\"\"\n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726837126587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n           width={200} \n           height={200} \n-          className=\"\"\n+          className=\"rounded\"\n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726837141121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 \">\n+      <div className=\"w-1/2 relative mr-10 shadow-lg \">\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1726837179017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 shadow-lg \">\n+      <div className=\"w-1/2 relative mr-10 shadow-lg border-2 border-gray-300 rounded\">\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1726837197527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 shadow-lg border-2 border-gray-300 rounded\">\n+      <div className=\"w-1/2 relative mr-10 shadow-lg border-2 border-300 rounded\">\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1726837218900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10 shadow-lg border-2 border-300 rounded\">\n+      <div className=\"w-1/2 relative mr-10 shadow-lg  border-300 rounded\">\n         <Image \n           src=\"/images/photo.jpeg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1726837284080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"secondary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n+          <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726837932378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold  mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726837954884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold  mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text- mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726837960229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text- mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text-purple-50 mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726837983949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text-purple-50 mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text-purple-0 mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726837989174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text-purple-0 mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text-purple-100 mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726838015639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text-purple-100 mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text-p-100 mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726838031332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text-p-100 mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726838050338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold text-white mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl text-[] font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726838064885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl text-[] font-bold text-white mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl text-[38px] font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726838219192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"primary\" className=\"mt-4 w-full\"> {/* w-full pour même taille */}\n+          <Button variant=\"primary\" className=\"mt-4 w-full \"> {/* w-full pour même taille */}\n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726838228981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"primary\" className=\"mt-4 w-full \"> {/* w-full pour même taille */}\n+          <Button variant=\"primary\" className=\"mt-4 w-full  text-white\"> {/* w-full pour même taille */}\n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726838237741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-white mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"primary\" className=\"mt-4 w-full  text-white\"> {/* w-full pour même taille */}\n+          <Button variant=\"primary\" className=\"mt-4 w-full  \"> {/* w-full pour même taille */}\n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726839515155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl text-[38px] font-bold text-white mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl text-[38px] font-bold text-e mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n           <Button variant=\"primary\" className=\"mt-4 w-full  \"> {/* w-full pour même taille */}\n             Créer un compte\n"
+                },
+                {
+                    "date": 1726839559768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,12 @@\n     <div className=\"flex min-h-screen items-center\">\n       <BackgroundImages />\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n-        <h1 className=\"text-2xl text-[38px] font-bold text-e mb-4\">Connexion</h1>\n+        <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"primary\" className=\"mt-4 w-full  \"> {/* w-full pour même taille */}\n+          <Button variant=\"primary\" className=\"mt-4 w-full  \"> \n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726840466862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\">\n-          <Button variant=\"primary\" className=\"mt-4 w-full  \"> \n+          {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Créer un compte\n           </Button>\n         </Link>\n       </div>\n"
+                },
+                {
+                    "date": 1726840481439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,12 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\">\n+        <Link href=\"/register\" className=\"\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Créer un compte\n-          </Button>\n+          {/* </Button> */}\n         </Link>\n       </div>\n \n       {/* Image à droite */}\n"
+                },
+                {
+                    "date": 1726840487214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"\">\n+        <Link href=\"/register\" className=\"mt-[]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Créer un compte\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840506904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[]\">\n+        <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n-            Créer un compte\n+            Pas \n           {/* </Button> */}\n         </Link>\n       </div>\n \n"
+                },
+                {
+                    "date": 1726840515263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n-            Pas \n+            Pas Encor de compte\n           {/* </Button> */}\n         </Link>\n       </div>\n \n"
+                },
+                {
+                    "date": 1726840521775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n-            Pas Encor de compte\n+            Pas Encor de compte inscri\n           {/* </Button> */}\n         </Link>\n       </div>\n \n"
+                },
+                {
+                    "date": 1726840526943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n-            Pas Encor de compte inscri\n+            Pas Encor de compte inscrive\n           {/* </Button> */}\n         </Link>\n       </div>\n \n"
+                },
+                {
+                    "date": 1726840533616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n-            Pas Encor de compte inscrive\n+            Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n       </div>\n \n"
+                },
+                {
+                    "date": 1726840565698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,14 +12,14 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n+      </div>\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n-      </div>\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative mr-10 shadow-lg  border-300 rounded\">\n         <Image \n"
+                },
+                {
+                    "date": 1726840574720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,14 +12,14 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-      </div>\n         <Link href=\"/register\" className=\"mt-[20px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n+      </div>\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative mr-10 shadow-lg  border-300 rounded\">\n         <Image \n"
+                },
+                {
+                    "date": 1726840599899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[20px]\">\n+        <Link href=\"/register\" className=\"mt-[0px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840616137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[0px]\">\n+        <Link href=\"/register\" className=\"mt-[50px] \">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840628274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px] \">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-purple \">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840678247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-purple \">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-purple hover:text-white\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840714898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-purple hover:text-white\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-purple hover:text-\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840728568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-purple hover:text-\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-w hover:text-[#6841DA]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840780989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-w hover:text-[#6841DA]\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text- hover:text-[#6841DA]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840804809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text- hover:text-[#6841DA]\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA]tex\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840812743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA]tex\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA]text-[18px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840834230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA]text-[18px]\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA] text-[18px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                },
+                {
+                    "date": 1726840847194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"flex flex-col items-center justify-center w-1/2 p-8\">\n         <h1 className=\"text-2xl text-[38px] font-bold text-purple mb-4\">Connexion</h1>\n         <ProfileForm />\n-        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA] text-[18px]\">\n+        <Link href=\"/register\" className=\"mt-[50px]  text-[#a855f7] hover:text-[#6841DA] text-[px]\">\n           {/* <Button variant=\"primary\" className=\"mt-4 w-full  \">  */}\n             Pas Encor de compte inscrivez-vous !\n           {/* </Button> */}\n         </Link>\n"
+                }
+            ],
+            "date": 1726833834514,
+            "name": "Commit-0",
+            "content": "\"use client\";\n\nimport { ProfileForm } from \"@/components/ProfileForm\"; // Chemin vers ton composant de formulaire\nimport { Button } from \"@/components/ui/button\";\nimport Link from \"next/link\";\n\nconst LoginPage = () => {\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-screen\">\n      <h1 className=\"text-2xl font-bold mb-4\">Connexion</h1>\n      <ProfileForm />\n      <Link href=\"/register\">\n        <Button variant=\"secondary\" className=\"mt-4\">\n          Créer un compte\n        </Button>\n      </Link>\n    </div>\n  );\n};\n\nexport default LoginPage;\n"
+        }
+    ]
+}

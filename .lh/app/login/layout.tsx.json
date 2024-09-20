@@ -1,0 +1,90 @@
+{
+    "sourceFile": "app/login/layout.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1726834626593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726834632350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-impo\n\\ No newline at end of file\n+import {  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834641393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import {  }\n\\ No newline at end of file\n+import { ProfileForm } from \"../_components/Form\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834661080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-import { ProfileForm } from \"../_components/Form\";\n\\ No newline at end of file\n+import { ProfileForm } from \"../_components/Form\";\n+interface LandingLayoutProps {\n+    children: React.ReactNode;\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834679221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n import { ProfileForm } from \"../_components/Form\";\n interface LandingLayoutProps {\n     children: React.ReactNode;\n-  }\n\\ No newline at end of file\n+  }\n+\n+const LandingLayout = ({ children }: LandingLayoutProps) => {\n"
+                },
+                {
+                    "date": 1726834692278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,4 +3,5 @@\n     children: React.ReactNode;\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834697543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n     children: React.ReactNode;\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n+    return\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834702846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,8 @@\n     children: React.ReactNode;\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n-    return\n-}\n\\ No newline at end of file\n+    return(\n+\n+    )\n+}\n"
+                },
+                {
+                    "date": 1726834720564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n-\n+                  <duv\n     )\n }\n"
+                },
+                {
+                    "date": 1726834725613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n-                  <duv\n+                  <diV></diV>\n     )\n }\n"
+                },
+                {
+                    "date": 1726834732375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n-                  <diV></diV>\n+                  <di\n     )\n }\n"
+                },
+                {
+                    "date": 1726834739345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,9 @@\n   }\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n-                  <di\n+                  <div>\n+                    {children}\n+                  </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1726834745549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n+                    <\n                     {children}\n                   </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1726834755555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n-                    <\n+                    <pr\n                     {children}\n                   </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1726834760876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n-                    <pr\n+                    <ProfileForm />\n                     {children}\n                   </div>\n     )\n }\n"
+                },
+                {
+                    "date": 1726834767089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,4 +10,5 @@\n                     {children}\n                   </div>\n     )\n }\n+export \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726834774714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n                     {children}\n                   </div>\n     )\n }\n-export \n\\ No newline at end of file\n+export default Lan\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726835103080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n-                    <ProfileForm />\n+                    {/* <ProfileForm /> */}\n                     {children}\n                   </div>\n     )\n }\n\\ No newline at end of file\n-export default Lan\n+export default LandingLayout\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726835117070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n \n const LandingLayout = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n-                    {/* <ProfileForm /> */}\n                     {children}\n                   </div>\n     )\n }\n"
+                }
+            ],
+            "date": 1726834626593,
+            "name": "Commit-0",
+            "content": "impo"
+        }
+    ]
+}
