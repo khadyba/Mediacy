@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 51,
+            "activePatchIndex": 93,
             "patches": [
                 {
                     "date": 1726749165907,
@@ -212,6 +212,174 @@
                 {
                     "date": 1726761591899,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n \"use client\"; \n-import exp from 'constants';\n+\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- export default const LanguageProvider = ({ children }) => {\n+const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-// export { LanguageContext, LanguageProvider };\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762049116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n+\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726762061437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n-\n+export function  \n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726762067249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n-export function  \n+export function  L\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726762077145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n-export function  L\n+export function  LanguageContext() {\n+  \n+}\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726762084378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,10 @@\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n export function  LanguageContext() {\n-  \n+  const LanguageContext = createContext();\n }\n- const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726762104292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n+export {  LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762110541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export {  LanguageProvider };\n\\ No newline at end of file\n+export { LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762116000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageProvider };\n\\ No newline at end of file\n+export { LanguageProvider ;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762124098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageProvider ;\n\\ No newline at end of file\n+export  LanguageProvider() ;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762139843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n export function  LanguageContext() {\n+\n   const LanguageContext = createContext();\n }\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n@@ -20,5 +21,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export  LanguageProvider() ;\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726762148155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,9 @@\n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n-export function  LanguageContext() {\n-\n-  const LanguageContext = createContext();\n-}\n+ const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726764366881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n-const LanguageProvider = ({ children }) => {\n+ const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726764373831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n- const LanguageProvider = ({ children }) => {\n+export const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n+export { LanguageContext LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726764381557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext LanguageProvider };\n\\ No newline at end of file\n+export { LanguageContext };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726765182237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n-export const LanguageProvider = ({ children }) => {\n+ const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n     setLanguage(lang);\n"
+                },
+                {
+                    "date": 1726765189262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext };\n\\ No newline at end of file\n+export { LanguageContext, L };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726765252880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-\"use client\"; \n \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n@@ -18,5 +17,5 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, L };\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726766228148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use client\"; \n import React, { createContext, useState } from 'react';\n \n // Crée le contexte\n  const LanguageContext = createContext();\n"
+                },
+                {
+                    "date": 1726821616927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n-\n // Crée le contexte\n  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  const LanguageProvider = ({ children }) => {\n@@ -17,5 +16,10 @@\n     </LanguageContext.Provider>\n   );\n };\n \n-export { LanguageContext, LanguageProvider };\n\\ No newline at end of file\n+export { LanguageContext, LanguageProvider };\n+\n+const LanguageContext = createContext({\n+  language: \"en\",\n+  changeLanguage: () => {},\n+});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726821658019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,4 @@\n };\n \n export { LanguageContext, LanguageProvider };\n \n-const LanguageContext = createContext({\n-  language: \"en\",\n-  changeLanguage: () => {},\n-});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726821663151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,11 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n // Crée le contexte\n- const LanguageContext = createContext();\n+const LanguageContext = createContext({\n+  language: \"en\",\n+  changeLanguage: () => {},\n+});\n // Fournit le contexte aux composants enfants\n  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726821674358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,8 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n // Crée le contexte\n-const LanguageContext = createContext({\n-  language: \"en\",\n-  changeLanguage: () => {},\n-});\n+ const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n@@ -21,4 +18,8 @@\n };\n \n export { LanguageContext, LanguageProvider };\n \n+const LanguageContext = createContext({\n+  language: \"en\",\n+  changeLanguage: () => {},\n+});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726821681194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n // Crée le contexte\n- const LanguageContext = createContext();\n+//  const LanguageContext = createContext();\n // Fournit le contexte aux composants enfants\n  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726821690614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,4 @@\n };\n \n export { LanguageContext, LanguageProvider };\n \n-const LanguageContext = createContext({\n-  language: \"en\",\n-  changeLanguage: () => {},\n-});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726821697675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n // Crée le contexte\n //  const LanguageContext = createContext();\n+const LanguageContext = createContext({\n+  language: \"en\",\n+  changeLanguage: () => {},\n+});\n // Fournit le contexte aux composants enfants\n  const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n"
+                },
+                {
+                    "date": 1726822246901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,25 +1,25 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n-// Crée le contexte\n-//  const LanguageContext = createContext();\n+\n+// Crée le contexte avec une signature correcte pour changeLanguage\n const LanguageContext = createContext({\n   language: \"en\",\n-  changeLanguage: () => {},\n+  changeLanguage: (lang: string) => {}, // Ajoutez un paramètre ici\n });\n+\n // Fournit le contexte aux composants enfants\n- const LanguageProvider = ({ children }) => {\n+const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n-  const changeLanguage = (lang) => {\n-    setLanguage(lang);\n-    // Logique pour changer la langue de l'application\n+  const changeLanguage = (lang: string) => {\n+    setLanguage(lang); // Mettez à jour la langue ici\n   };\n+\n   return (\n     <LanguageContext.Provider value={{ language, changeLanguage }}>\n       {children}\n     </LanguageContext.Provider>\n   );\n };\n \n export { LanguageContext, LanguageProvider };\n-\n"
+                },
+                {
+                    "date": 1726822344626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,16 +3,16 @@\n \n // Crée le contexte avec une signature correcte pour changeLanguage\n const LanguageContext = createContext({\n   language: \"en\",\n-  changeLanguage: (lang: string) => {}, // Ajoutez un paramètre ici\n+  changeLanguage: (lang) => {}, // Retirer le typage TypeScript\n });\n \n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n-  const changeLanguage = (lang: string) => {\n+  const changeLanguage = (lang) => {\n     setLanguage(lang); // Mettez à jour la langue ici\n   };\n \n   return (\n"
+                },
+                {
+                    "date": 1726822377275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n // Crée le contexte avec une signature correcte pour changeLanguage\n const LanguageContext = createContext({\n   language: \"en\",\n-  changeLanguage: (lang) => {}, // Retirer le typage TypeScript\n+  changeLanguage: (lang) => {}, \n });\n \n // Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n"
+                },
+                {
+                    "date": 1726822383839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n \"use client\"; \n import React, { createContext, useState } from 'react';\n \n-// Crée le contexte avec une signature correcte pour changeLanguage\n const LanguageContext = createContext({\n   language: \"en\",\n   changeLanguage: (lang) => {}, \n });\n"
+                },
+                {
+                    "date": 1726822399624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n   language: \"en\",\n   changeLanguage: (lang) => {}, \n });\n \n-// Fournit le contexte aux composants enfants\n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n"
+                },
+                {
+                    "date": 1726822476664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,15 @@\n import React, { createContext, useState } from 'react';\n \n const LanguageContext = createContext({\n   language: \"en\",\n-  changeLanguage: (lang) => {}, \n+  changeLanguage: () => {}, \n });\n \n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n-    setLanguage(lang); // Mettez à jour la langue ici\n   };\n \n   return (\n     <LanguageContext.Provider value={{ language, changeLanguage }}>\n"
+                },
+                {
+                    "date": 1726825584317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import React, { createContext, useState } from 'react';\n \n const LanguageContext = createContext({\n   language: \"en\",\n-  changeLanguage: () => {}, \n+  changeLanguage: () => {},\n });\n \n const LanguageProvider = ({ children }) => {\n   const [language, setLanguage] = useState('en');\n"
+                },
+                {
+                    "date": 1726825608428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   changeLanguage: () => {},\n });\n \n const LanguageProvider = ({ children }) => {\n-  const [language, setLanguage] = useState('en');\n+ const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n   };\n \n"
+                },
+                {
+                    "date": 1726825616043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   changeLanguage: () => {},\n });\n \n const LanguageProvider = ({ children }) => {\n- const [language, setLanguage] = useState('en');\n+  //  const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n   };\n \n"
+                },
+                {
+                    "date": 1726825648349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   changeLanguage: () => {},\n });\n \n const LanguageProvider = ({ children }) => {\n-  //  const [language, setLanguage] = useState('en');\n+   const [language, setLanguage] = useState('en');\n \n   const changeLanguage = (lang) => {\n   };\n \n"
+                },
+                {
+                    "date": 1726826289397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   const changeLanguage = (lang) => {\n   };\n \n   return (\n-    <LanguageContext.Provider value={{ language, changeLanguage }}>\n+    <LanguageContext.Provider >\n       {children}\n     </LanguageContext.Provider>\n   );\n };\n"
+                },
+                {
+                    "date": 1726826304904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,8 @@\n \n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n \n-  const changeLanguage = (lang) => {\n-  };\n \n   return (\n     <LanguageContext.Provider >\n       {children}\n"
+                },
+                {
+                    "date": 1726827151010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,8 @@\n });\n \n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n-\n-\n   return (\n     <LanguageContext.Provider >\n       {children}\n     </LanguageContext.Provider>\n"
+                },
+                {
+                    "date": 1726827482921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,24 @@\n-\"use client\"; \n+\"use client\";\n import React, { createContext, useState } from 'react';\n \n+// Crée le contexte\n const LanguageContext = createContext({\n   language: \"en\",\n   changeLanguage: () => {},\n });\n \n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n-  return (\n-    <LanguageContext.Provider >\n-      {children}\n-    </LanguageContext.Provider>\n-  );\n+\n+   const changeLanguage = (lang) => {\n+     setLanguage(lang);\n+   };\n+\n+   return (\n+     <LanguageContext.Provider value={{ language, changeLanguage }}>\n+       {children}\n+     </LanguageContext.Provider>\n+   );\n };\n \n export { LanguageContext, LanguageProvider };\n"
+                },
+                {
+                    "date": 1726828359152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n \n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n \n-   const changeLanguage = (lang) => {\n-     setLanguage(lang);\n-   };\n+  //  const changeLanguage = (lang) => {\n+  //    setLanguage(lang);\n+  //  };\n \n    return (\n      <LanguageContext.Provider value={{ language, changeLanguage }}>\n        {children}\n"
+                },
+                {
+                    "date": 1726828375942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,17 @@\n \n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n \n-  //  const changeLanguage = (lang) => {\n-  //    setLanguage(lang);\n-  //  };\n+  //  <Button\n+  onClick={() => changeLanguage(language === 'en' ? 'fr' : 'en')} // Ajoute l'argument ici\n+  variant=\"primary\"\n+  size=\"lg\"\n+>\n+  {language === 'en' ? 'Français' : 'English'}\n+</Button>\n \n+\n    return (\n      <LanguageContext.Provider value={{ language, changeLanguage }}>\n        {children}\n      </LanguageContext.Provider>\n"
+                },
+                {
+                    "date": 1726829369737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,21 +5,15 @@\n const LanguageContext = createContext({\n   language: \"en\",\n   changeLanguage: () => {},\n });\n-\n const LanguageProvider = ({ children }) => {\n    const [language, setLanguage] = useState('en');\n \n-  //  <Button\n-  onClick={() => changeLanguage(language === 'en' ? 'fr' : 'en')} // Ajoute l'argument ici\n-  variant=\"primary\"\n-  size=\"lg\"\n->\n-  {language === 'en' ? 'Français' : 'English'}\n-</Button>\n+   const changeLanguage = (lang) => {\n+     setLanguage(lang);\n+   };\n \n-\n    return (\n      <LanguageContext.Provider value={{ language, changeLanguage }}>\n        {children}\n      </LanguageContext.Provider>\n"
                 }
             ],
             "date": 1726749165907,

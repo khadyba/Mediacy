@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 50,
             "patches": [
                 {
                     "date": 1725369454386,
@@ -120,6 +120,94 @@
                 {
                     "date": 1726760165194,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n \n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n-               <div className=\"flex items-center justify-center w-full\">\n+        <div className=\"flex items-center justify-center w-full\">\n                     <Hero />\n-               </div>\n+        </div>\n   );\n }\n export default landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726823685993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-\n+import { appWithTranslation } from 'next-i18next';\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n-                    <Hero />\n+          <Hero />\n         </div>\n   );\n }\n export default landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726823732181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n           <Hero />\n         </div>\n   );\n }\n-export default landingpage\n\\ No newline at end of file\n+export default    landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726823739381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n           <Hero />\n         </div>\n   );\n }\n-export default    landingpage\n\\ No newline at end of file\n+export default  appWithTranslation  landingpage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726823745208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n           <Hero />\n         </div>\n   );\n }\n-export default  appWithTranslation  landingpage\n\\ No newline at end of file\n+export default  appWithTranslation()  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726825278804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-import { appWithTranslation } from 'next-i18next';\n+// import { appWithTranslation } from 'next-i18next';\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n           <Hero />\n         </div>\n   );\n }\n\\ No newline at end of file\n-export default  appWithTranslation()  \n+export default  appWithTranslation(landingpage)  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726825284877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n           <Hero />\n         </div>\n   );\n }\n-export default  appWithTranslation(landingpage)  \n\\ No newline at end of file\n+export default  landingpage)  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726826745440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n-// import { appWithTranslation } from 'next-i18next';\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n           <Hero />\n         </div>\n   );\n }\n-export default  landingpage)  \n\\ No newline at end of file\n+export default  landingpage  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726829764009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n+          \n           <Hero />\n         </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1726829776953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import Hero from \"./_section/Hero\";\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n-          \n+            <BackgroundImages />\n+            <Navbar />\n           <Hero />\n         </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1726829798181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n import Hero from \"./_section/Hero\";\n+import { Navbar } from './_components/Navbar';\n+import { BackgroundImages } from './_components/BackgroundImage';\n+\n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n             <BackgroundImages />\n"
+                },
+                {
+                    "date": 1726829806809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from './_components/Navbar';\n+import { Navbar } from './components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829818108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from './components/Navbar';\n-import { BackgroundImages } from './_components/BackgroundImage';\n+import { Navbar } from './_components/Navbar';\n+import { BackgroundImages } from './components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n"
+                },
+                {
+                    "date": 1726829827471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Hero from \"./_section/Hero\";\n import { Navbar } from './_components/Navbar';\n-import { BackgroundImages } from './components/BackgroundImage';\n+import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n"
+                },
+                {
+                    "date": 1726829837673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from './_components/Navbar';\n+import { Navbar } from '.@/_components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829842723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from '.@/_components/Navbar';\n+import { Navbar } from '@/_components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829856045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from '@/_components/Navbar';\n+import { Navbar } from './_components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829861443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from './_components/Navbar';\n+import { Navbar } from './/_components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829867264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from './/_components/Navbar';\n+import { Navbar } from '._components/Navbar';\n import { BackgroundImages } from './_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
+                },
+                {
+                    "date": 1726829877208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Hero from \"./_section/Hero\";\n import { Navbar } from '._components/Navbar';\n-import { BackgroundImages } from './_components/BackgroundImage';\n+import { BackgroundImages } from '';\n \n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n"
+                },
+                {
+                    "date": 1726829883674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Hero from \"./_section/Hero\";\n import { Navbar } from '._components/Navbar';\n-import { BackgroundImages } from '';\n+import { BackgroundImages } from '@/app';\n \n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n"
+                },
+                {
+                    "date": 1726829889643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Hero from \"./_section/Hero\";\n import { Navbar } from '._components/Navbar';\n-import { BackgroundImages } from '@/app';\n+import { BackgroundImages } from '@/app/_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n         <div className=\"flex items-center justify-center w-full\">\n"
+                },
+                {
+                    "date": 1726829901817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import Hero from \"./_section/Hero\";\n-import { Navbar } from '._components/Navbar';\n+import { Navbar } from '@/app/_components/';\n import { BackgroundImages } from '@/app/_components/BackgroundImage';\n \n const  landingpage = () => {\n   return (\n"
                 }
             ],
             "date": 1725369454386,

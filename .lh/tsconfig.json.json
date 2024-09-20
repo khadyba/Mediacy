@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1726750473757,
@@ -20,6 +20,10 @@
                 {
                     "date": 1726751252772,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\n   \"compilerOptions\": {\n+    \"target\": \"es5\",\n     \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n     \"allowJs\": true,\n     \"skipLibCheck\": true,\n     \"strict\": true,\n"
+                },
+                {
+                    "date": 1726762296266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n {\n   \"compilerOptions\": {\n     \"target\": \"es5\",\n-    \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n+    \"lib\": [\n+      \"dom\",\n+      \"dom.iterable\",\n+      \"esnext\"\n+    ],\n     \"allowJs\": true,\n     \"skipLibCheck\": true,\n     \"strict\": true,\n     \"noEmit\": true,\n@@ -12,12 +16,28 @@\n     \"resolveJsonModule\": true,\n     \"isolatedModules\": true,\n     \"jsx\": \"preserve\",\n     \"incremental\": true,\n-    \"typeRoots\": [\"./node_modules/@types\"],\n+    \"typeRoots\": [\n+      \"./node_modules/@types\"\n+    ],\n     \"paths\": {\n-      \"@/*\": [\"./*\"]\n-    }\n+      \"@/*\": [\n+        \"./*\"\n+      ]\n+    },\n+    \"plugins\": [\n+      {\n+        \"name\": \"next\"\n+      }\n+    ]\n   },\n-  \"include\": [\"next-env.d.ts\", \"**/*.ts\", \"**/*.tsx\"],\n-  \"exclude\": [\"node_modules\"]\n+  \"include\": [\n+    \"next-env.d.ts\",\n+    \"**/*.ts\",\n+    \"**/*.tsx\",\n+    \".next/types/**/*.ts\"\n+, \"context/LanguageContext.js\"  ],\n+  \"exclude\": [\n+    \"node_modules\"\n+  ]\n }\n"
                 }
             ],
             "date": 1726750473757,

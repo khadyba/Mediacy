@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1726746682973,
@@ -52,6 +52,50 @@
                 {
                     "date": 1726747649258,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from './locales/en/common.json';\n+import en from '../locales/en/common.json';\n import fr from './locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726821495750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n+\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n-import fr from './locales/fr/common.json';\n+import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726821501316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use client\"\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n"
+                },
+                {
+                    "date": 1726825377235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\"use client\"\n+// \"use client\"\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n"
+                },
+                {
+                    "date": 1726826866368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-// \"use client\"\n // src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n"
+                },
+                {
+                    "date": 1726826884595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n-// src/config/i18n.js\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n-import fr from '../locales/fr/common.json';\n+// import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726826916104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-import en from '../locales/en/common.json';\n+// import en from '../locales/en/common.json';\n // import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n"
+                },
+                {
+                    "date": 1726826948119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import i18n from 'i18next';\n import { initReactI18next } from 'react-i18next';\n-// import en from '../locales/en/common.json';\n-// import fr from '../locales/fr/common.json';\n+import en from '../locales/en/common.json';\n+import fr from '../locales/fr/common.json';\n \n // Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n"
+                },
+                {
+                    "date": 1726826953491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import { initReactI18next } from 'react-i18next';\n import en from '../locales/en/common.json';\n import fr from '../locales/fr/common.json';\n \n-// Initialisation d'i18next\n i18n\n   .use(initReactI18next) // Passe l'instance à react-i18next\n   .init({\n     resources: {\n"
+                },
+                {
+                    "date": 1726826964855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import en from '../locales/en/common.json';\n import fr from '../locales/fr/common.json';\n \n i18n\n-  .use(initReactI18next) // Passe l'instance à react-i18next\n+  .use(initReactI18next)\n   .init({\n     resources: {\n       en: { translation: en },\n       fr: { translation: fr },\n"
+                },
+                {
+                    "date": 1726826971177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     resources: {\n       en: { translation: en },\n       fr: { translation: fr },\n     },\n-    lng: 'en', // Langue par défaut\n+    lng: 'en',\n     fallbackLng: 'en', // Langue de repli\n     interpolation: {\n       escapeValue: false, // Pas nécessaire pour React\n     },\n"
+                },
+                {
+                    "date": 1726826977853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n       en: { translation: en },\n       fr: { translation: fr },\n     },\n     lng: 'en',\n-    fallbackLng: 'en', // Langue de repli\n+    fallbackLng: 'en',\n     interpolation: {\n-      escapeValue: false, // Pas nécessaire pour React\n+      escapeValue: false, \n     },\n   });\n \n export default i18n;\n"
                 }
             ],
             "date": 1726746682973,

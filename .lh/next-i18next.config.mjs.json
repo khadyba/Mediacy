@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1726748969941,
@@ -16,6 +16,42 @@
                 {
                     "date": 1726760628900,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-\n // next-i18next.config.mjs\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n"
+                },
+                {
+                    "date": 1726763564096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-// next-i18next.config.mjs\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n };\n"
+                },
+                {
+                    "date": 1726823036909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-\n-export const i18n = {\n-  locales: ['en', 'fr'],\n-  defaultLocale: 'en',\n+// next.config.js\n+module.exports = {\n+  i18n: {\n+    locales: ['en', 'fr'],\n+    defaultLocale: 'en',\n+  },\n };\n"
+                },
+                {
+                    "date": 1726823136592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+// next.config.js\n+exports = {\n+  i18n: {\n+    locales: ['en', 'fr'],\n+    defaultLocale: 'en',\n+  },\n+};\n"
+                },
+                {
+                    "date": 1726823150105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,5 @@\n-// next.config.js\n-exports = {\n-  i18n: {\n-    locales: ['en', 'fr'],\n-    defaultLocale: 'en',\n-  },\n+\n+export const i18n = {\n+  locales: ['en', 'fr'],\n+  defaultLocale: 'en',\n };\n-// next.config.js\n-module.exports = {\n-  i18n: {\n-    locales: ['en', 'fr'],\n-    defaultLocale: 'en',\n-  },\n-};\n"
+                },
+                {
+                    "date": 1726827673757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n };\n"
+                },
+                {
+                    "date": 1726829312151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n+  localePath: './locales' // ou le chemin correct vers votre dossier locales\n };\n"
+                },
+                {
+                    "date": 1726829318175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n-  localePath: './locales' // ou le chemin correct vers votre dossier locales\n+  localePath: './locales' \n };\n"
+                },
+                {
+                    "date": 1726829350121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n+\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n-  localePath: './locales' \n+  localePath: './locales'\n };\n"
+                },
+                {
+                    "date": 1726830508807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n-\n export const i18n = {\n   locales: ['en', 'fr'],\n   defaultLocale: 'en',\n-  localePath: './locales'\n };\n"
                 }
             ],
             "date": 1726748969941,

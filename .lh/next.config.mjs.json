@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 23,
             "patches": [
                 {
                     "date": 1726745167135,
@@ -60,6 +60,46 @@
                 {
                     "date": 1726751572125,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n+// next.config.mjs\n+import { i18n } from './next-i18next.config.mjs';\n+\n /** @type {import('next').NextConfig} */\n const nextConfig = {\n          i18n,\n };\n"
+                },
+                {
+                    "date": 1726824117642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,8 @@\n-// next.config.mjs\n import { i18n } from './next-i18next.config.mjs';\n \n /** @type {import('next').NextConfig} */\n const nextConfig = {\n-         i18n,\n+  i18n,\n };\n \n export default nextConfig;\n-\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1726830194997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,18 @@\n import { i18n } from './next-i18next.config.mjs';\n \n /** @type {import('next').NextConfig} */\n-const nextConfig = {\n+export default {\n   i18n,\n+  async redirects() {\n+    return [\n+      {\n+        source: '/',\n+        destination: '/en', // ou '/fr' selon ta langue par défaut\n+        permanent: true,\n+      },\n+    ];\n+  },\n };\n \n+\n export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830202471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n   },\n };\n \n \n-export default nextConfig;\n+\n"
+                },
+                {
+                    "date": 1726830210825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   async redirects() {\n     return [\n       {\n         source: '/',\n-        destination: '/en', // ou '/fr' selon ta langue par défaut\n+        destination: '/en\n         permanent: true,\n       },\n     ];\n   },\n"
+                },
+                {
+                    "date": 1726830221859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,8 @@\n import { i18n } from './next-i18next.config.mjs';\n \n /** @type {import('next').NextConfig} */\n-export default {\n+const nextConfig = {\n   i18n,\n-  async redirects() {\n-    return [\n-      {\n-        source: '/',\n-        destination: '/en\n-        permanent: true,\n-      },\n-    ];\n-  },\n };\n \n-\n-\n+export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830232613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,19 @@\n \n /** @type {import('next').NextConfig} */\n const nextConfig = {\n   i18n,\n+ \n+    async redirects() {\n+      return [\n+        {\n+          source: '/',\n+          destination: '/en', // ou '/fr' selon ta langue par défaut\n+          permanent: true,\n+        },\n+      ];\n+    },\n+  };\n+  \n };\n \n export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830333817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,14 +7,13 @@\n     async redirects() {\n       return [\n         {\n           source: '/',\n-          destination: '/en', // ou '/fr' selon ta langue par défaut\n+          destination: '/', // ou '/fr' selon ta langue par défaut\n           permanent: true,\n         },\n       ];\n     },\n   };\n   \n-};\n \n export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830355097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,18 +2,7 @@\n \n /** @type {import('next').NextConfig} */\n const nextConfig = {\n   i18n,\n- \n-    async redirects() {\n-      return [\n-        {\n-          source: '/',\n-          destination: '/', // ou '/fr' selon ta langue par défaut\n-          permanent: true,\n-        },\n-      ];\n-    },\n-  };\n-  \n+};\n \n export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830817689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n import { i18n } from './next-i18next.config.mjs';\n \n /** @type {import('next').NextConfig} */\n const nextConfig = {\n-  i18n,\n };\n \n export default nextConfig;\n"
+                },
+                {
+                    "date": 1726830943402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-import { i18n } from './next-i18next.config.mjs';\n \n /** @type {import('next').NextConfig} */\n const nextConfig = {\n };\n"
                 }
             ],
             "date": 1726745167135,
