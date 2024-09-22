@@ -1,0 +1,26 @@
+{
+    "sourceFile": "app/Snippets/layout.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1727033171948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727033179302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface LandingLayoutProps {\n     children: React.ReactNode;\n   }\n \n-const LandingLayout = ({ children }: LandingLayoutProps) => {\n+const LandingS = ({ children }: LandingLayoutProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1727033186318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,5 @@\n                     {children}\n                   </div>\n     )\n }\n-export default Landing\n\\ No newline at end of file\n+export default LandingS\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1727033171948,
+            "name": "Commit-0",
+            "content": "interface LandingLayoutProps {\n    children: React.ReactNode;\n  }\n\nconst LandingLayout = ({ children }: LandingLayoutProps) => {\n    return(\n                  <div>\n                    {children}\n                  </div>\n    )\n}\nexport default LandingLayout"
+        }
+    ]
+}

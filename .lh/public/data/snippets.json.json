@@ -1,0 +1,42 @@
+{
+    "sourceFile": "public/data/snippets.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1727034411344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727034418684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,73 @@\n-ex\n\\ No newline at end of file\n+[\n+    {\n+      \"id\": 1,\n+      \"titre\": \"Afficher un message d'alerte\",\n+      \"description\": \"Code pour afficher un message d'alerte basique en JavaScript.\",\n+      \"code\": \"alert('Bonjour!');\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 2,\n+      \"titre\": \"Boucle for simple\",\n+      \"description\": \"Une boucle for simple qui itère de 1 à 10.\",\n+      \"code\": \"for(let i = 1; i <= 10; i++) { console.log(i); }\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 3,\n+      \"titre\": \"Formater une date\",\n+      \"description\": \"Formater une date en JavaScript en utilisant toLocaleDateString().\",\n+      \"code\": \"const date = new Date(); console.log(date.toLocaleDateString('fr-FR'));\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 4,\n+      \"titre\": \"Ajouter une classe CSS\",\n+      \"description\": \"Ajout dynamique d'une classe CSS à un élément.\",\n+      \"code\": \"document.getElementById('monElement').classList.add('maClasse');\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 5,\n+      \"titre\": \"Masquer un élément\",\n+      \"description\": \"Masquer un élément en modifiant son style.\",\n+      \"code\": \"document.getElementById('monElement').style.display = 'none';\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 6,\n+      \"titre\": \"Convertir un tableau en chaîne\",\n+      \"description\": \"Convertir un tableau en une chaîne de caractères avec join().\",\n+      \"code\": \"const tableau = ['apple', 'banana', 'cherry']; console.log(tableau.join(', '));\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 7,\n+      \"titre\": \"Afficher la longueur d'une chaîne\",\n+      \"description\": \"Afficher le nombre de caractères dans une chaîne.\",\n+      \"code\": \"const chaine = 'Bonjour'; console.log(chaine.length);\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 8,\n+      \"titre\": \"Vérifier un nombre pair\",\n+      \"description\": \"Code pour vérifier si un nombre est pair.\",\n+      \"code\": \"const estPair = (num) => num % 2 === 0; console.log(estPair(4));\",\n+      \"categorie\": \"JavaScript\"\n+    },\n+    {\n+      \"id\": 9,\n+      \"titre\": \"Créer un bouton en HTML\",\n+      \"description\": \"Code HTML pour créer un bouton simple.\",\n+      \"code\": \"<button>Cliquez-moi</button>\",\n+      \"categorie\": \"HTML\"\n+    },\n+    {\n+      \"id\": 10,\n+      \"titre\": \"Lien vers une page externe\",\n+      \"description\": \"Code HTML pour créer un lien qui s'ouvre dans un nouvel onglet.\",\n+      \"code\": \"<a href='https://exemple.com' target='_blank'>Visitez le site</a>\",\n+      \"categorie\": \"HTML\"\n+    }\n+  ]\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727034447705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n [\n     {\n       \"id\": 1,\n       \"titre\": \"Afficher un message d'alerte\",\n"
+                },
+                {
+                    "date": 1727034453302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-[\n+const snippets = [\n     {\n       \"id\": 1,\n       \"titre\": \"Afficher un message d'alerte\",\n       \"description\": \"Code pour afficher un message d'alerte basique en JavaScript.\",\n"
+                },
+                {
+                    "date": 1727034458480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-const snippets = [\n+ expoconst snippets = [\n     {\n       \"id\": 1,\n       \"titre\": \"Afficher un message d'alerte\",\n       \"description\": \"Code pour afficher un message d'alerte basique en JavaScript.\",\n"
+                },
+                {
+                    "date": 1727034465180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n- expoconst snippets = [\n+ exconst snippets = [\n     {\n       \"id\": 1,\n       \"titre\": \"Afficher un message d'alerte\",\n       \"description\": \"Code pour afficher un message d'alerte basique en JavaScript.\",\n"
+                },
+                {
+                    "date": 1727034514923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-\n- exconst snippets = [\n+[\n     {\n       \"id\": 1,\n       \"titre\": \"Afficher un message d'alerte\",\n       \"description\": \"Code pour afficher un message d'alerte basique en JavaScript.\",\n"
+                }
+            ],
+            "date": 1727034411344,
+            "name": "Commit-0",
+            "content": "ex"
+        }
+    ]
+}

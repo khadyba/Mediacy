@@ -1,0 +1,74 @@
+
+ export const snippets = [
+    {
+      "id": 1,
+      "titre": "Afficher un message d'alerte",
+      "description": "Code pour afficher un message d'alerte basique en JavaScript.",
+      "code": "alert('Bonjour!');",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 2,
+      "titre": "Boucle for simple",
+      "description": "Une boucle for simple qui itère de 1 à 10.",
+      "code": "for(let i = 1; i <= 10; i++) { console.log(i); }",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 3,
+      "titre": "Formater une date",
+      "description": "Formater une date en JavaScript en utilisant toLocaleDateString().",
+      "code": "const date = new Date(); console.log(date.toLocaleDateString('fr-FR'));",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 4,
+      "titre": "Ajouter une classe CSS",
+      "description": "Ajout dynamique d'une classe CSS à un élément.",
+      "code": "document.getElementById('monElement').classList.add('maClasse');",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 5,
+      "titre": "Masquer un élément",
+      "description": "Masquer un élément en modifiant son style.",
+      "code": "document.getElementById('monElement').style.display = 'none';",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 6,
+      "titre": "Convertir un tableau en chaîne",
+      "description": "Convertir un tableau en une chaîne de caractères avec join().",
+      "code": "const tableau = ['apple', 'banana', 'cherry']; console.log(tableau.join(', '));",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 7,
+      "titre": "Afficher la longueur d'une chaîne",
+      "description": "Afficher le nombre de caractères dans une chaîne.",
+      "code": "const chaine = 'Bonjour'; console.log(chaine.length);",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 8,
+      "titre": "Vérifier un nombre pair",
+      "description": "Code pour vérifier si un nombre est pair.",
+      "code": "const estPair = (num) => num % 2 === 0; console.log(estPair(4));",
+      "categorie": "JavaScript"
+    },
+    {
+      "id": 9,
+      "titre": "Créer un bouton en HTML",
+      "description": "Code HTML pour créer un bouton simple.",
+      "code": "<button>Cliquez-moi</button>",
+      "categorie": "HTML"
+    },
+    {
+      "id": 10,
+      "titre": "Lien vers une page externe",
+      "description": "Code HTML pour créer un lien qui s'ouvre dans un nouvel onglet.",
+      "code": "<a href='https://exemple.com' target='_blank'>Visitez le site</a>",
+      "categorie": "HTML"
+    }
+  ]
+  

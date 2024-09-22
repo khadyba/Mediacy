@@ -1,0 +1,30 @@
+{
+    "sourceFile": "app/snippets/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1727034831886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727034838471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n \"use client\";\n \n+import SnippetList from \"../_components/CardSnippet\";\n import ExploreSnippets from \"../_components/CardSnippet\";\n \n \n export default function PageSnippets() {\n"
+                },
+                {
+                    "date": 1727036119945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n \"use client\";\n \n import SnippetList from \"../_components/CardSnippet\";\n-import ExploreSnippets from \"../_components/CardSnippet\";\n \n \n export default function PageSnippets() {\n   return (\n     <div className=\"p-8\">\n       <h1 className=\"text-3xl font-bold mb-6\">Explorer les Snippets</h1>\n-               \n+               <B\n                <SnippetList />\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1727036125887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n \"use client\";\n \n+import { BackgroundImages } from \"../_components/BackgroundImage\";\n import SnippetList from \"../_components/CardSnippet\";\n \n \n export default function PageSnippets() {\n   return (\n     <div className=\"p-8\">\n       <h1 className=\"text-3xl font-bold mb-6\">Explorer les Snippets</h1>\n-               <B\n+               <BackgroundImages\n                <SnippetList />\n     </div>\n   );\n }\n"
+                }
+            ],
+            "date": 1727034831886,
+            "name": "Commit-0",
+            "content": "\"use client\";\n\nimport ExploreSnippets from \"../_components/CardSnippet\";\n\n\nexport default function PageSnippets() {\n  return (\n    <div className=\"p-8\">\n      <h1 className=\"text-3xl font-bold mb-6\">Explorer les Snippets</h1>\n               \n               <SnippetList />\n    </div>\n  );\n}\n"
+        }
+    ]
+}

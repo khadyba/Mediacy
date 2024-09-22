@@ -1,0 +1,262 @@
+{
+    "sourceFile": "app/register/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 61,
+            "patches": [
+                {
+                    "date": 1726846680143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726846687234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +0,0 @@\n-interface LandingLayoutProps {\n-    children: React.ReactNode;\n-  }\n-\n-const LandingLayout = ({ children }: LandingLayoutProps) => {\n-    return(\n-                  <div>\n-                    {children}\n-                  </div>\n-    )\n-}\n-export default LandingLayout\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846757372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+\"use client\";\n+import { ProfileForm } from \"@/app/_components/Form\"; \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846778900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n \"use client\";\n-import { ProfileForm } from \"@/app/_components/Form\"; \n\\ No newline at end of file\n+import { ProfileForm } from \"@/app/_components/Form\"; \n+\n+\n+const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846789576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n-const \n\\ No newline at end of file\n+const Re\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846794927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n-const Re\n\\ No newline at end of file\n+const RegisterPage()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846803727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n-const RegisterPage()\n\\ No newline at end of file\n+const RegisterPage = ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846819603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\"use client\";\n+import { ProfileForm } from \"@/app/_components/Form\"; \n+\n+\n+const RegisterPage = () => {\n+\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846827153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,8 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n-const RegisterPage = () => {\n+export const RegisterPage = () => {\n \n-}\n-\"use client\";\n-import { ProfileForm } from \"@/app/_components/Form\"; \n \n-\n\\ No newline at end of file\n-const RegisterPage = ()\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846834052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n export const RegisterPage = () => {\n+       return\n \n-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846840517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n import { ProfileForm } from \"@/app/_components/Form\"; \n \n \n export const RegisterPage = () => {\n-       return\n+       return(\n+               \n+       )\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846881569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,13 @@\n \"use client\";\n import { ProfileForm } from \"@/app/_components/Form\"; \n+import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n export const RegisterPage = () => {\n        return(\n-               \n+               <div>\n+\n+               </div>\n        )\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846886743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n export const RegisterPage = () => {\n        return(\n                <div>\n-\n+                        <Ba\n                </div>\n        )\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846894805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n export const RegisterPage = () => {\n        return(\n                <div>\n-                        <Ba\n+                <BackgroundImages />\n                </div>\n        )\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726846931204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n import { ProfileForm } from \"@/app/_components/Form\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n-export const RegisterPage = () => {\n+export de const RegisterPage = () => {\n+\n        return(\n                <div>\n                 <BackgroundImages />\n                </div>\n"
+                },
+                {
+                    "date": 1726846936903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { ProfileForm } from \"@/app/_components/Form\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n-export de const RegisterPage = () => {\n+ const RegisterPage = () => {\n \n        return(\n                <div>\n                 <BackgroundImages />\n"
+                },
+                {
+                    "date": 1726846946717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,6 @@\n                 <BackgroundImages />\n                </div>\n        )\n \n-}\n\\ No newline at end of file\n+}\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726847001789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n \n        return(\n                <div>\n                 <BackgroundImages />\n+                \n                </div>\n        )\n \n }\n\\ No newline at end of file\n-export default \n+export default RegisterPage\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726847069969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n \"use client\";\n-import { ProfileForm } from \"@/app/_components/Form\"; \n+import { ProfileForm } from \"@/app/_components/RForm\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n  const RegisterPage = () => {\n \n        return(\n                <div>\n                 <BackgroundImages />\n-                \n+\n                </div>\n        )\n \n }\n"
+                },
+                {
+                    "date": 1726847081129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \"use client\";\n-import { ProfileForm } from \"@/app/_components/RForm\"; \n+import { Re } from \"@/app/_components/RegisterForm\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n  const RegisterPage = () => {\n"
+                },
+                {
+                    "date": 1726847086386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \"use client\";\n-import { Re } from \"@/app/_components/RegisterForm\"; \n+import { RegisterFo } from \"@/app/_components/RegisterForm\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n  const RegisterPage = () => {\n"
+                },
+                {
+                    "date": 1726847173341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \"use client\";\n-import { RegisterFo } from \"@/app/_components/RegisterForm\"; \n+import { RegisterForm} from \"@/app/_components/RegisterForm\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n  const RegisterPage = () => {\n"
+                },
+                {
+                    "date": 1726847228634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \"use client\";\n-import { RegisterForm} from \"@/app/_components/RegisterForm\"; \n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n \n  const RegisterPage = () => {\n"
+                },
+                {
+                    "date": 1726847747943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,36 @@\n \"use client\";\n-import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n+import Image from \"next/image\";\n+import { RegisterForm } from \"@/app/_components/Form\"; // Ton formulaire RegisterForm\n+import { Button } from \"@/components/ui/button\";\n+import Link from \"next/link\";\n \n- const RegisterPage = () => {\n+const RegisterPage = () => {\n+  return (\n+    <div className=\"flex flex-row items-center justify-center min-h-screen\">\n+      {/* Formulaire à gauche */}\n+      <div className=\"w-1/2 p-8\">\n+        <h1 className=\"text-2xl font-bold mb-4\">Inscription</h1>\n\\ No newline at end of file\n+        <RegisterForm />\n+        <Link href=\"/login\">\n+          <Button variant=\"secondary\" className=\"mt-4 w-full\">\n+            J'ai déjà un compte\n+          </Button>\n+        </Link>\n+      </div>\n \n-       return(\n-               <div>\n-                <BackgroundImages />\n+      {/* Image à droite */}\n+      <div className=\"w-1/2 relative\">\n+        <Image \n+          src=\"/images/img.png\" // Remplace par le chemin de ton image\n+          alt=\"Description de l'image\"\n+          layout=\"fill\" // Utilisation de layout fill pour occuper l'espace disponible\n+          objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n+          className=\"rounded-lg border border-gray-200 shadow-lg\"\n+        />\n+      </div>\n+    </div>\n+  );\n+};\n \n-               </div>\n-       )\n-\n-}\n-export default RegisterPage\n+export default RegisterPage;\n"
+                },
+                {
+                    "date": 1726847763553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,9 @@\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Inscription</h1>\n         <RegisterForm />\n-        <Link href=\"/login\">\n-          <Button variant=\"secondary\" className=\"mt-4 w-full\">\n-            J'ai déjà un compte\n-          </Button>\n-        </Link>\n+       \n       </div>\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n@@ -32,5 +28,5 @@\n     </div>\n   );\n };\n \n-export default RegisterPage;\n\\ No newline at end of file\n+export default RegisterPage;\n"
+                },
+                {
+                    "date": 1726847881315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \"use client\";\n \n import Image from \"next/image\";\n-import { RegisterForm } from \"@/app/_components/Form\"; // Ton formulaire RegisterForm\n+import { RegisterForm } from \"@/app/_components/RForm\"; // Ton formulaire RegisterForm\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const RegisterPage = () => {\n@@ -11,9 +11,8 @@\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n         <h1 className=\"text-2xl font-bold mb-4\">Inscription</h1>\n         <RegisterForm />\n-       \n       </div>\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n"
+                },
+                {
+                    "date": 1726847949741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,16 @@\n \"use client\";\n \n import Image from \"next/image\";\n-import { RegisterForm } from \"@/app/_components/RForm\"; // Ton formulaire RegisterForm\n+import { RegisterForm } from \"@/app/_components/RegisterForm\"; // Ton formulaire RegisterForm\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n \n const RegisterPage = () => {\n   return (\n     <div className=\"flex flex-row items-center justify-center min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n-        <h1 className=\"text-2xl font-bold mb-4\">Inscription</h1>\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n"
+                },
+                {
+                    "date": 1726847961339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n         <Image \n-          src=\"/images/img.png\" // Remplace par le chemin de ton image\n+          src=\"/images/.png\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"fill\" // Utilisation de layout fill pour occuper l'espace disponible\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n           className=\"rounded-lg border border-gray-200 shadow-lg\"\n"
+                },
+                {
+                    "date": 1726847967213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n         <Image \n-          src=\"/images/.png\" // Remplace par le chemin de ton image\n+          src=\"/images/ordi.g\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           layout=\"fill\" // Utilisation de layout fill pour occuper l'espace disponible\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n           className=\"rounded-lg border border-gray-200 shadow-lg\"\n"
+                },
+                {
+                    "date": 1726847995361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,10 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n         <Image \n-          src=\"/images/ordi.g\" // Remplace par le chemin de ton image\n+          src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n-          layout=\"fill\" // Utilisation de layout fill pour occuper l'espace disponible\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n           className=\"rounded-lg border border-gray-200 shadow-lg\"\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848035619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n           src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n           className=\"rounded-lg border border-gray-200 shadow-lg\"\n+          \n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726848061296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n           src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n           className=\"rounded-lg border border-gray-200 shadow-lg\"\n-          \n+          width={200} \n+          height={200} \n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726848084716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n   return (\n     <div className=\"flex flex-row items-center justify-center min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n+      \n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n"
+                },
+                {
+                    "date": 1726848090794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <div className=\"flex flex-row items-center justify-center min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n-      \n+      <Bac\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n"
+                },
+                {
+                    "date": 1726848133080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,15 +3,16 @@\n import Image from \"next/image\";\n import { RegisterForm } from \"@/app/_components/RegisterForm\"; // Ton formulaire RegisterForm\n import { Button } from \"@/components/ui/button\";\n import Link from \"next/link\";\n+import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const RegisterPage = () => {\n   return (\n     <div className=\"flex flex-row items-center justify-center min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n-      <Bac\n+      <BackgroundImages />\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n@@ -19,9 +20,9 @@\n         <Image \n           src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n-          className=\"rounded-lg border border-gray-200 shadow-lg\"\n+          className=\"rounded-lg border border-gray-200 shadow-lg relative\"\n           width={200} \n           height={200} \n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848167035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         <Image \n           src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n           objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n-          className=\"rounded-lg border border-gray-200 shadow-lg relative\"\n+          className=\"rounded-lg border border-gray-200 shadow-lg \"\n           width={200} \n           height={200} \n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848252091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <div className=\"w-1/2 relative\">\n         <Image \n           src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n           alt=\"Description de l'image\"\n-          objectFit=\"cover\" // L'image occupe tout l'espace sans déformer\n+          objectFit=\"cover\"\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n           width={200} \n           height={200} \n         />\n"
+                },
+                {
+                    "date": 1726848339685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative\">\n         <Image \n-          src=\"/images/ordi.jpg\" // Remplace par le chemin de ton image\n+          src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n           objectFit=\"cover\"\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n           width={200} \n"
+                },
+                {
+                    "date": 1726848348856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <div className=\"w-1/2 relative\">\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n-          objectFit=\"cover\"\n+        //   objectFit=\"cover\"\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n           width={200} \n           height={200} \n         />\n"
+                },
+                {
+                    "date": 1726848563014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,12 @@\n       <div className=\"w-1/2 relative\">\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n-        //   objectFit=\"cover\"\n+          layout=\"responsive\" // Rend l'image réactive\n+          objectFit=\"cover\" // Ajuste l'image sans déformation\n+          width={700} // Largeur de l'image (augmentée)\n+          height={500} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n           width={200} \n           height={200} \n         />\n"
+                },
+                {
+                    "date": 1726848568508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,8 @@\n           objectFit=\"cover\" // Ajuste l'image sans déformation\n           width={700} // Largeur de l'image (augmentée)\n           height={500} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n-          width={200} \n-          height={200} \n         />\n       </div>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1726848592248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Rend l'image réactive\n           objectFit=\"cover\" // Ajuste l'image sans déformation\n           width={700} // Largeur de l'image (augmentée)\n-          height={500} // Hauteur de l'image (augmentée)\n+          height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n     </div>\n"
+                },
+                {
+                    "date": 1726848600614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Rend l'image réactive\n           objectFit=\"cover\" // Ajuste l'image sans déformation\n-          width={700} // Largeur de l'image (augmentée)\n+          width={500} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848633478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const RegisterPage = () => {\n   return (\n-    <div className=\"flex flex-row items-center justify-center min-h-screen\">\n+    <div className=\"flex flex-row items-center  min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n       <BackgroundImages />\n         <RegisterForm />\n"
+                },
+                {
+                    "date": 1726848650748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Rend l'image réactive\n           objectFit=\"cover\" // Ajuste l'image sans déformation\n-          width={500} // Largeur de l'image (augmentée)\n+          width={00} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848682480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,15 +15,15 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative\">\n+      <div className=\"w-1/2 relative mr-10\">\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" // Rend l'image réactive\n           objectFit=\"cover\" // Ajuste l'image sans déformation\n-          width={00} // Largeur de l'image (augmentée)\n+          width={200} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1726848700617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <div className=\"w-1/2 relative mr-10\">\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n-          layout=\"responsive\" // Rend l'image réactive\n+        //   layout=\"responsive\" \n           objectFit=\"cover\" // Ajuste l'image sans déformation\n           width={200} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n"
+                },
+                {
+                    "date": 1726848707115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <div className=\"w-1/2 relative mr-10\">\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n-        //   layout=\"responsive\" \n+          layout=\"responsive\" \n           objectFit=\"cover\" // Ajuste l'image sans déformation\n           width={200} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n"
+                },
+                {
+                    "date": 1726848712596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         <Image \n           src=\"/images/ordi.jpg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n-          objectFit=\"cover\" // Ajuste l'image sans déformation\n+        //   objectFit=\"cover\" \n           width={200} // Largeur de l'image (augmentée)\n           height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n"
+                },
+                {
+                    "date": 1727031194416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative mr-10\">\n         <Image \n-          src=\"/images/ordi.jpg\" \n+          src=\"/images/ordina.jpg\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n         //   objectFit=\"cover\" \n           width={200} // Largeur de l'image (augmentée)\n"
+                },
+                {
+                    "date": 1727031199903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n       {/* Image à droite */}\n       <div className=\"w-1/2 relative mr-10\">\n         <Image \n-          src=\"/images/ordina.jpg\" \n+          src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n         //   objectFit=\"cover\" \n           width={200} // Largeur de l'image (augmentée)\n"
+                },
+                {
+                    "date": 1727031221282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2 relative mr-10\">\n+      <div className=\"w-1/2  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031246554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,10 @@\n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n         //   objectFit=\"cover\" \n-          width={200} // Largeur de l'image (augmentée)\n-          height={200} // Hauteur de l'image (augmentée)\n+          width={100} // Largeur de l'image (augmentée)\n+          height={100} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n     </div>\n"
+                },
+                {
+                    "date": 1727031259075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-1/2  relative mr-10\">\n+      <div className=\"w-  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031264611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-  relative mr-10\">\n+      <div className=\"w-[250px]  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031273520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-[250px]  relative mr-10\">\n+      <div className=\"w-[50px]  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031284446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-[50px]  relative mr-10\">\n+      <div className=\"w-[150px]  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031337692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,17 +7,17 @@\n import { BackgroundImages } from \"../_components/BackgroundImage\";\n \n const RegisterPage = () => {\n   return (\n-    <div className=\"flex flex-row items-center  min-h-screen\">\n+    <div className=\"flex  items-center  min-h-screen\">\n       {/* Formulaire à gauche */}\n       <div className=\"w-1/2 p-8\">\n       <BackgroundImages />\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-[150px]  relative mr-10\">\n+      <div className=\"w-[550px]  relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031593569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n         //   objectFit=\"cover\" \n-          width={100} // Largeur de l'image (augmentée)\n+          width={200} // Largeur de l'image (augmentée)\n           height={100} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n"
+                },
+                {
+                    "date": 1727031674847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,16 +15,16 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-[550px]  relative mr-10\">\n+      <div className=\"w-[550px] w-f relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n         //   objectFit=\"cover\" \n           width={200} // Largeur de l'image (augmentée)\n-          height={100} // Hauteur de l'image (augmentée)\n+          height={200} // Hauteur de l'image (augmentée)\n           className=\"rounded-lg border border-gray-200 shadow-lg \"\n         />\n       </div>\n     </div>\n"
+                },
+                {
+                    "date": 1727031695386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\"w-[550px] w-f relative mr-10\">\n+      <div className=\" w- relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                },
+                {
+                    "date": 1727031704159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         <RegisterForm />\n       </div>\n \n       {/* Image à droite */}\n-      <div className=\" w- relative mr-10\">\n+      <div className=\" w-[600] relative mr-10\">\n         <Image \n           src=\"/images/ordina.avif\" \n           alt=\"Description de l'image\"\n           layout=\"responsive\" \n"
+                }
+            ],
+            "date": 1726846680143,
+            "name": "Commit-0",
+            "content": "interface LandingLayoutProps {\n    children: React.ReactNode;\n  }\n\nconst LandingLayout = ({ children }: LandingLayoutProps) => {\n    return(\n                  <div>\n                    {children}\n                  </div>\n    )\n}\nexport default LandingLayout"
+        }
+    ]
+}

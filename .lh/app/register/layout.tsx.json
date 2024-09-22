@@ -1,0 +1,18 @@
+{
+    "sourceFile": "app/register/layout.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1726846690916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1726846690916,
+            "name": "Commit-0",
+            "content": "interface LandingLayoutProps {\n    children: React.ReactNode;\n  }\n\nconst LandingLayout = ({ children }: LandingLayoutProps) => {\n    return(\n                  <div>\n                    {children}\n                  </div>\n    )\n}\nexport default LandingLayout"
+        }
+    ]
+}
