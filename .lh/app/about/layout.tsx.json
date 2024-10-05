@@ -1,0 +1,50 @@
+{
+    "sourceFile": "app/about/layout.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1728136604632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728136611453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-interface LandingSnippetProps {\n+interface DProps {\n     children: React.ReactNode;\n   }\n \n const LandingSnippet = ({ children }: LandingSnippetProps) => {\n"
+                },
+                {
+                    "date": 1728136625319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-interface DProps {\n+interface AbouProps {\n     children: React.ReactNode;\n   }\n \n const LandingSnippet = ({ children }: LandingSnippetProps) => {\n"
+                },
+                {
+                    "date": 1728136632274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-interface AbouProps {\n+interface AboutProps {\n     children: React.ReactNode;\n   }\n \n-const LandingSnippet = ({ children }: LandingSnippetProps) => {\n+const LandingSnippet = ({ children }: Props) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728136638653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface AboutProps {\n     children: React.ReactNode;\n   }\n \n-const LandingSnippet = ({ children }: Props) => {\n+const LandingSnippet = ({ children }: AboutProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728136644940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface AboutProps {\n     children: React.ReactNode;\n   }\n \n-const LandingSnippet = ({ children }: AboutProps) => {\n+const  = ({ children }: AboutProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728136651472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface AboutProps {\n     children: React.ReactNode;\n   }\n \n-const  = ({ children }: AboutProps) => {\n+const AboutProps = ({ children }: AboutProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728136657005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface AboutProps {\n     children: React.ReactNode;\n   }\n \n-const AboutProps = ({ children }: AboutProps) => {\n+const AboutPage = ({ children }: AboutProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728136662949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,5 @@\n                     {children}\n                   </div>\n     )\n }\n-export default LandingSnippet\n\\ No newline at end of file\n+export default A\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728136604632,
+            "name": "Commit-0",
+            "content": "interface LandingSnippetProps {\n    children: React.ReactNode;\n  }\n\nconst LandingSnippet = ({ children }: LandingSnippetProps) => {\n    return(\n                  <div>\n                    {children}\n                  </div>\n    )\n}\nexport default LandingSnippet"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "app/snippetdetail/[id].tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1728125707432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728126400420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,44 +0,0 @@\n-import { useParams } from 'next/navigation';\n-import { useState, useEffect } from 'react';\n-\n-type Snippet = {\n-  id: number;\n-  titre: string;\n-  categorie: string;\n-  description: string;\n-  code: string;\n-  resultat: string;\n-};\n-\n-export default function SnippetDetail() {\n-  const { id } = useParams(); // Utilisation de useParams pour récupérer l'ID\n-  const [snippet, setSnippet] = useState<Snippet | null>(null);\n-\n-  useEffect(() => {\n-    if (id) {\n-      fetch(`/data/snippets.json`)\n-        .then((response) => response.json())\n-        .then((data) => {\n-          const selectedSnippet = data.find((snippet: Snippet) => snippet.id === parseInt(id as string));\n-          setSnippet(selectedSnippet);\n-        });\n-    }\n-  }, [id]);\n-\n-  if (!snippet) return <div>Chargement...</div>;\n-\n-  return (\n-    <div className=\"max-w-screen-md mx-auto p-4\">\n-      <h1 className=\"text-2xl font-bold\">{snippet.titre}</h1>\n-      <p className=\"text-sm text-gray-600\">{snippet.categorie}</p>\n-      <p className=\"my-4\">{snippet.description}</p>\n-\n-      <pre className=\"bg-gray-100 p-4 rounded-md\">{snippet.code}</pre>\n-\n-      <h2 className=\"text-xl font-semibold mt-6\">Exemple de résultat :</h2>\n-      <div className=\"bg-gray-100 p-4 rounded-md\">\n-        <div dangerouslySetInnerHTML={{ __html: snippet.resultat }} />\n-      </div>\n-    </div>\n-  );\n-}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728125707432,
+            "name": "Commit-0",
+            "content": "import { useParams } from 'next/navigation';\nimport { useState, useEffect } from 'react';\n\ntype Snippet = {\n  id: number;\n  titre: string;\n  categorie: string;\n  description: string;\n  code: string;\n  resultat: string;\n};\n\nexport default function SnippetDetail() {\n  const { id } = useParams(); // Utilisation de useParams pour récupérer l'ID\n  const [snippet, setSnippet] = useState<Snippet | null>(null);\n\n  useEffect(() => {\n    if (id) {\n      fetch(`/data/snippets.json`)\n        .then((response) => response.json())\n        .then((data) => {\n          const selectedSnippet = data.find((snippet: Snippet) => snippet.id === parseInt(id as string));\n          setSnippet(selectedSnippet);\n        });\n    }\n  }, [id]);\n\n  if (!snippet) return <div>Chargement...</div>;\n\n  return (\n    <div className=\"max-w-screen-md mx-auto p-4\">\n      <h1 className=\"text-2xl font-bold\">{snippet.titre}</h1>\n      <p className=\"text-sm text-gray-600\">{snippet.categorie}</p>\n      <p className=\"my-4\">{snippet.description}</p>\n\n      <pre className=\"bg-gray-100 p-4 rounded-md\">{snippet.code}</pre>\n\n      <h2 className=\"text-xl font-semibold mt-6\">Exemple de résultat :</h2>\n      <div className=\"bg-gray-100 p-4 rounded-md\">\n        <div dangerouslySetInnerHTML={{ __html: snippet.resultat }} />\n      </div>\n    </div>\n  );\n}\n"
+        }
+    ]
+}

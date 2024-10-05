@@ -1,0 +1,42 @@
+{
+    "sourceFile": "app/(SnippetDetail)/layouts.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1728124128296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728124134812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface LandingSnippetProps {\n     children: React.ReactNode;\n   }\n \n-const LandingSnippet = ({ children }: LandingSnippetProps) => {\n+const Snippet = ({ children }: LandingSnippetProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728124142095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n interface LandingSnippetProps {\n     children: React.ReactNode;\n   }\n \n-const Snippet = ({ children }: LandingSnippetProps) => {\n+const SnippetS = ({ children }: LandingSnippetProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728124152889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n interface LandingSnippetProps {\n     children: React.ReactNode;\n   }\n \n-const SnippetS = ({ children }: LandingSnippetProps) => {\n+const SnippetShow = ({ children }: LandingSnippetProps) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n     )\n }\n\\ No newline at end of file\n-export default LandingSnippet\n+export default Sni\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728124166452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n-interface LandingSnippetProps {\n+interface S {\n     children: React.ReactNode;\n   }\n \n-const SnippetShow = ({ children }: LandingSnippetProps) => {\n+const SnippetShow = ({ children }: S) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n     )\n\\ No newline at end of file\n }\n-export default Sni\n+export default SnippetShow\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728124171706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-interface S {\n+interface SnippetSwo {\n     children: React.ReactNode;\n   }\n \n-const SnippetShow = ({ children }: S) => {\n+const SnippetShow = ({ children }: SnippetSwo) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                },
+                {
+                    "date": 1728124181077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-interface SnippetSwo {\n+interface SnippetShowP {\n     children: React.ReactNode;\n   }\n \n-const SnippetShow = ({ children }: SnippetSwo) => {\n+const SnippetShow = ({ children }: SnippetShowP) => {\n     return(\n                   <div>\n                     {children}\n                   </div>\n"
+                }
+            ],
+            "date": 1728124128296,
+            "name": "Commit-0",
+            "content": "interface LandingSnippetProps {\n    children: React.ReactNode;\n  }\n\nconst LandingSnippet = ({ children }: LandingSnippetProps) => {\n    return(\n                  <div>\n                    {children}\n                  </div>\n    )\n}\nexport default LandingSnippet"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 49,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1727033437096,
@@ -204,6 +204,30 @@
                 {
                     "date": 1727037606568,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,29 +41,32 @@\n     <div className=\"flex flex-col items-center\">\n       {/* Grille des cartes */}\n       <div className=\"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-screen-xl\">\n         {snippets.slice(0, visibleCount).map((snippet) => (\n-       <Card key={snippet.id}>\n-       <CardHeader>\n-         <CardTitle>{snippet.titre}</CardTitle>\n-         <CardDescription>{snippet.categorie}</CardDescription>\n-       </CardHeader>\n-       <CardContent>\n-         <p>{snippet.description}</p>\n-         {showCode === snippet.id && (\n-           <pre className=\"bg-gray-100 p-2 mt-2 rounded-md max-h-40 overflow-auto\">\n-             {snippet.code}\n-           </pre>\n-         )}\n-       </CardContent>\n-       <div className=\"flex justify-between mt-4\">\n-         <Button onClick={() => toggleShowCode(snippet.id)}>\n-           {showCode === snippet.id ? \"Masquer\" : \"Voir détails\"}\n-         </Button>\n-         <Button variant=\"secondary\">Ajouter à la bibliothèque</Button>\n-       </div>\n-     </Card>\n-     \n+          <Card key={snippet.id} className=\"w-full max-w-xs\">\n+            <CardHeader>\n+              <CardTitle>{snippet.titre}</CardTitle>\n+              <CardDescription>{snippet.categorie}</CardDescription>\n+            </CardHeader>\n+            <CardContent>\n+              <p>{snippet.description}</p>\n+              {/* Bouton pour voir plus de détails */}\n+              <Button\n+                variant=\"secondary\"\n+                className=\"mt-2\"\n+                onClick={() => toggleShowCode(snippet.id)}\n+              >\n+                {showCode === snippet.id ? \"Masquer le code\" : \"Voir détails\"}\n+              </Button>\n+\n+              {/* Affichage du code uniquement si le bouton est cliqué */}\n+              {showCode === snippet.id && (\n+                <pre className=\"bg-gray-100 p-2 mt-2 rounded-md max-h-40 overflow-auto\">\n+                  {snippet.code}\n+                </pre>\n+              )}\n+            </CardContent>\n+          </Card>\n         ))}\n       </div>\n \n       {/* Bouton \"Voir plus\" */}\n"
+                },
+                {
+                    "date": 1728122839259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,11 +70,14 @@\n       </div>\n \n       {/* Bouton \"Voir plus\" */}\n       {visibleCount < snippets.length && (\n-        <Button variant=\"secondary\" className=\"mt-6\" onClick={loadMoreSnippets}>\n-          Voir plus\n-        </Button>\n+      <Button\n+      variant=\"secondary\"\n+      className=\"mt-2\"\n+    >\n+      <Link to={`/snippets/${snippet.id}`}>Voir détails</Link>\n+    </Button>\n       )}\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1728122855617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n \"use client\";\n import { useState, useEffect } from \"react\";\n+impor\n import { Button } from \"@/components/ui/button\";\n import { Card, CardContent, CardDescription, CardHeader, CardTitle } from \"@/components/ui/card\";\n \n // Définir un type pour les snippets\n"
+                },
+                {
+                    "date": 1728122879105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n import { useState, useEffect } from \"react\";\n-impor\n+import Link from \"next/link\";\n import { Button } from \"@/components/ui/button\";\n import { Card, CardContent, CardDescription, CardHeader, CardTitle } from \"@/components/ui/card\";\n \n // Définir un type pour les snippets\n@@ -75,9 +75,9 @@\n       <Button\n       variant=\"secondary\"\n       className=\"mt-2\"\n     >\n-      <Link to={`/snippets/${snippet.id}`}>Voir détails</Link>\n+      <Link to={`/snippets/${snippets.id}`}>Voir détails</Link>\n     </Button>\n       )}\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1728123337571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n       <Button\n       variant=\"secondary\"\n       className=\"mt-2\"\n     >\n-      <Link to={`/snippets/${snippets.id}`}>Voir détails</Link>\n+      <Link to={`/snippets/${snippet.id}`}>Voir détails</Link>\n     </Button>\n       )}\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1728123386974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n       <Button\n       variant=\"secondary\"\n       className=\"mt-2\"\n     >\n-      <Link hrf={`/snippets/${snippet.id}`}>Voir détails</Link>\n+      <Link href={`/snippets/${snippet.id}`}>Voir détails</Link>\n     </Button>\n       )}\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1728124265195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n             <CardContent>\n               <p>{snippet.description}</p>\n               {/* Bouton pour voir plus de détails */}\n               <Button variant=\"secondary\" className=\"mt-2\">\n-                <Link href={`/(SnippetDetail/${snippet.id}`}>Voir détails</Link>\n+                <Link href={`/(SnippetDetail=/${snippet.id}`}>Voir détails</Link>\n               </Button>\n   \n               {/* Affichage du code uniquement si le bouton est cliqué */}\n               {showCode === snippet.id && (\n"
                 }
             ],
             "date": 1727033437096,
